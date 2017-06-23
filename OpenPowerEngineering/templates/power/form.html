@@ -1,0 +1,32 @@
+{% extends 'power/base.html' %}
+{% block title %}Upload{% endblock %}
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'power/style.css' %}"/>
+
+{% block body %}
+ <div class="container">
+ <h1>Here you can upload your file</h1>
+
+ <form class="col-md-4">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Your Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+     <p>Your article will be published only after been verified by professionals.</p>
+</form>
+
+
+
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+
+.list-group-item.active{
+
+    background-color: #9ad3de;
+}
+
+a.btn.btn-primary.btn-lg {
+    background-color: #9ad3de;
+}
+button.btn.btn-default {
+    background-color: #9ad3de;
+}
+
+ #top{
+    background-color: #e3e3e3;
+}
+ .jumbotron{
+     background-color:#c9c9c9;
+ }
+
+nav.navbar.navbar-default{
+     background-color:#c9c9c9;
+}
