@@ -18,3 +18,10 @@ class Power(TemplateView):
 
         }
         return HttpResponse(template.render(context,request))
+
+    def DigitalControl(request):
+        template = loader.get_template('power/DigitalControl/Control-system.html')
+        context = {
+
+        }
+        return  HttpResponse(template.render(context,request))
