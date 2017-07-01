@@ -2,8 +2,42 @@
 {% block content %}
 
     <p>
-    When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+ The equivalent impedance of $R_1$ and C is:
+\[  Z_c = R_1 // \frac{1}{sC}
+\]
+
+\[ Z_c = \frac{R_1}{1 + sCR_1}\]
+\[ v_i(t) = i(Z_c + R_2)  \]
+\[ i(t) = \frac{v_o(t)}{R_2} \]
+\[ v_i(t) = (Z_c + R_2) \frac{v_o(t)}{R_2} \]
+\[ \frac{v_o(t)}{v_i(t)} = \frac{Z_c + R_2}{R_2} = \frac{R_1 + R_2 + scR_1 R_2}{R_2(1 + sCR_1)} \]
+So, we can write
+\[ v_o(t) (s + a) = v_i(t) (s+b)\]
+i.e,\[ s v_o(t) + a v_o(t) = s v_i(t) + b v_i(t)\]
+
+We are already familiar with laplace transform. One of the property of Laplace Transform suggests that the multiplication of s with a function in s domain is equivalent to the derivative in time domain.i.e \[sX = \frac{dx}{dt}\]So, what is the derivative of function in discrete system. It is given by:
+\[ slope = \frac{v_k - v_{k-1}}{\Delta _T}\]
+Note:
+\[\frac{dx}{dt} =  \frac{x_k - x_{k-1}}{\Delta_T}\]
+
+\[\frac{d^2 x}{dt^2} =  \frac{x_k - 2 x_{k-1} + x_{k-2}}{\Delta_T ^2}\]
+If
+\[ u(s) = \frac{y(s)}{s} \Rightarrow  \int y(t) = u(t) \Rightarrow u_k = u_{k-1} + \Delta_T y_k \]
+This is called backward Euler integration
+\[u_k = u_{k-1} + \Delta_T y_{k-1} + \frac{\Delta_T}{2} (y_k - y_{k-1}) \]
+And this is called trapezoidal integration. This is more accurate than that of backward Euler integration. It is used in Tustin Transform.\newline
+	Hence, we can replace the s by the above term in discrete time system, so:
+\[ \frac{v_{ok} - v_{o(k-1)}}{\Delta _T} + av_o(t)= \frac{v_{ik} - v_{i(k-1)}}{\Delta _T} + bv_i(t) \]
+
+The output voltage is can be written as the function of $v_{ik}$, $v_{i(k-1)}$ and $v_{o(k-1)}$. What this representing is that, the output function at any instant is depending upon previous output, present and previous input. This type of equation is called difference equation. And this is recursive. This provides a great advantage of the modern computers. If we need certain compensator, we are not going to make the complex circuit diagram rather, develop a program algorithm that manipulates the input as same that of the original circuit and use it in a micro controller like raspberry pi.
+
+Difference equations are very important. One of the great example of difference equation is Fibbonaci series. It can be written as:
+\[ F_k = F_{k-1} + F_{k-2}\]
+One of the revolution in discrete control system is Babbage difference engine which was made in 1823.
+
+Let us introduce the term shift operator ($z^{-1}$) and what the operator does is, it delays the signal by some time value.
+\[x_{k-1} = z^{-1}x_k\]
+This notation is very common in discrete time control system. The backward Euler integration and Trapezoidal integration(Tustin transform) can be written
     </p>
 
 {% endblock %}

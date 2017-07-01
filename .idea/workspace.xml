@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659713ee-dcd6-4ed8-ab1d-ee44b009fd78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system0x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system10x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system11x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system12x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system13x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system14x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system15x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system16x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system17x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system18x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system19x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system20x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system21x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system22x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system23x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system24x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system25x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system26x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system27x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system4x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system6x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system7x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system8x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system9x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/texput.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/Introduction.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/Power System Modelling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/homepage.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPowerEngineering/settings.py" afterPath="$PROJECT_DIR$/OpenPowerEngineering/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js" afterPath="$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/models.py" afterPath="$PROJECT_DIR$/power/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/urls.py" afterPath="$PROJECT_DIR$/power/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/views.py" afterPath="$PROJECT_DIR$/power/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html" afterPath="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,21 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DigitalControl.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DigitalControl.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="546">
+              <caret line="39" column="153" lean-forward="false" selection-start-line="39" selection-start-column="153" selection-end-line="39" selection-end-column="153" />
               <folding />
             </state>
           </provider>
@@ -91,16 +36,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="11" column="144" lean-forward="false" selection-start-line="11" selection-start-column="144" selection-end-line="11" selection-end-column="144" />
               <folding />
             </state>
           </provider>
@@ -174,8 +109,8 @@
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/digital.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/settings.py" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js" />
-        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/base.html" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html" />
       </list>
     </option>
   </component>
@@ -584,6 +519,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-17" width="1368" height="786" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -592,7 +528,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36270192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32592592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -764,6 +700,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="11" column="144" lean-forward="false" selection-start-line="11" selection-start-column="144" selection-end-line="11" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/Introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -774,16 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="11" column="144" lean-forward="false" selection-start-line="11" selection-start-column="144" selection-end-line="11" selection-end-column="144" />
+        <state relative-caret-position="546">
+          <caret line="39" column="153" lean-forward="false" selection-start-line="39" selection-start-column="153" selection-end-line="39" selection-end-column="153" />
           <folding />
         </state>
       </provider>
