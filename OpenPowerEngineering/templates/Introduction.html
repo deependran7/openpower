@@ -1,4 +1,4 @@
-{% extends 'power/base.html' %}
+{% extends 'base.html' %}
 {% block title %} Power Engineering {% endblock %}
 
 
@@ -15,12 +15,20 @@
           <a href="#" class="list-group-item">Fault Analysis</a>
           <a href="{% url 'power:DigitalControl' %}" class="list-group-item">Control Engineering</a>
           <a href="#" class="list-group-item">System Protection</a>
-         <a href="#" class="list-group-item">High Voltage Analysis</a>
-         <a href="#" class="list-group-item">Machines</a>
-         <a href="#" class="list-group-item">Transmission Line Design</a>
-         <a href="#" class="list-group-item">Distrubution</a>
-         <a href="#" class="list-group-item">Electromagnetic Theory</a>
+          <a href="#" class="list-group-item">High Voltage Analysis</a>
+          <a href="#" class="list-group-item">Electrical Machines</a>
+          <a href="#" class="list-group-item">Transmission Line Design</a>
+          <a href="#" class="list-group-item">Distrubution System</a>
+          <a href="#" class="list-group-item">Electromagnetic Theory</a>
         </div>
+    </div>
+
+    <div class="col-md-9 row">
+        {% block content %}
+
+         {% endblock %}
+
+
     </div>
 </div>
 {% endblock %}

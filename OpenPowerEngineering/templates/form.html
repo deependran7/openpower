@@ -1,20 +1,25 @@
-{% extends 'power/base.html' %}
+{% extends 'base.html' %}
 {% block title %}Upload{% endblock %}
 {% load staticfiles %}
-<link rel="stylesheet" type="text/css" href="{% static 'power/style.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
 
 {% block body %}
  <div class="container">
  <h1>Here you can upload your file</h1>
 
- <form class="col-md-4">
+ <form class="col-md-4" name="upload" action="" method="post">
+
+     <div class="form-group">
+    <label for="exampleInputEmail1">Your Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name" name="name">
+  </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Your Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
   </div>
   <div class="form-group">
     <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
+    <input type="file" id="exampleInputFile" name="file">
     <p class="help-block">Example block-level help text here.</p>
   </div>
   <div class="checkbox">

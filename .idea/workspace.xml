@@ -2,10 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659713ee-dcd6-4ed8-ab1d-ee44b009fd78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system-2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system-3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system0x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system10x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system11x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system12x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system13x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system14x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system15x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system16x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system17x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system18x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system19x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system20x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system21x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system22x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system23x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system24x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system25x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system26x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system27x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system4x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system5x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system6x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system7x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system8x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system9x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/texput.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/Introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/Power System Modelling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/homepage.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/Introduction.html" afterPath="$PROJECT_DIR$/OpenPowerEngineering/templates/power/Introduction.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPowerEngineering/settings.py" afterPath="$PROJECT_DIR$/OpenPowerEngineering/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js" afterPath="$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/models.py" afterPath="$PROJECT_DIR$/power/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/urls.py" afterPath="$PROJECT_DIR$/power/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/views.py" afterPath="$PROJECT_DIR$/power/views.py" />
     </list>
@@ -17,7 +58,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/OpenPowerEngineering$Test__OpenPowerEngineering_templates_power_DigitalControl_Control_system_html.coverage" NAME="Test: OpenPowerEngineering.templates.power.DigitalControl.Control-system.html Coverage Results" MODIFIED="1498301553411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/OpenPowerEngineering$Test__OpenPowerEngineering_templates_power_DigitalControl_Control_system_html.coverage" NAME="Test: OpenPowerEngineering.templates.power.DigitalControl.Control-system.html Coverage Results" MODIFIED="1498303253524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -25,56 +66,52 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/power/views.py">
+      <file leaf-file-name="DigitalControl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="98">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/base.html">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="140">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Introduction.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/Introduction.html">
+        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/Introduction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="406">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Control-system.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system.html">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-952">
-              <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+            <state relative-caret-position="28">
+              <caret line="11" column="144" lean-forward="false" selection-start-line="11" selection-start-column="144" selection-end-line="11" selection-end-column="144" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/power/urls.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="462">
+              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,8 +122,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -124,12 +161,21 @@
         <option value="$PROJECT_DIR$/power/templates/power/homepage.html" />
         <option value="$PROJECT_DIR$/power/templates/power/Introduction.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/power/base.html" />
-        <option value="$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js" />
-        <option value="$PROJECT_DIR$/OpenPowerEngineering/settings.py" />
-        <option value="$PROJECT_DIR$/power/urls.py" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/power/Introduction.html" />
-        <option value="$PROJECT_DIR$/power/views.py" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system.html" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/Power System Modelling.html" />
+        <option value="$PROJECT_DIR$/power/forms.py" />
+        <option value="$PROJECT_DIR$/power/models.py" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/form.html" />
+        <option value="$PROJECT_DIR$/power/views.py" />
+        <option value="$PROJECT_DIR$/power/urls.py" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/Introduction.html" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/digital.html" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/settings.py" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/base.html" />
       </list>
     </option>
   </component>
@@ -161,6 +207,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,20 +217,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.5.3 (/usr/bin/python3.5) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="OpenPowerEngineering" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -218,10 +252,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="power" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -238,10 +268,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="power" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -249,30 +275,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenPowerEngineering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenPowerEngineering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenPowerEngineering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../djangoproject.com-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="svg&#9;ACTION&#9;ActivateSvgViewerToolWindow" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mathlatex" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="E:\power my site\OpenPowerEngineeringBase\OpenPowerEngineering\static\images\power" />
+      <recent name="C:\Users\Deependra\OneDrive\OpenPowerEngineering\power\templates\power" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Deependra\PycharmProjects\OpenPowerEngineering\studentsite" />
       <recent name="C:\Users\Deependra\PycharmProjects\OpenPowerEngineering\power" />
       <recent name="C:\Users\Deependra\PycharmProjects\OpenPowerEngineering\computer" />
       <recent name="C:\Users\Deependra\PycharmProjects\OpenPowerEngineering\OpenPowerEngineering" />
       <recent name="C:\Users\Deependra\PycharmProjects\OpenPowerEngineering\homepage\templates\homepage" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\power my site\OpenPowerEngineeringBase\OpenPowerEngineering\static\images\power" />
-      <recent name="C:\Users\Deependra\OneDrive\OpenPowerEngineering\power\templates\power" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: OpenPowerEngineering.templates.power.DigitalControl.Control-system.html">
+  <component name="RunManager" selected="Django server.OpenPowerEngineering">
     <configuration default="false" name="Test: OpenPowerEngineering.templates.power.DigitalControl.Control-system.html" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -516,6 +561,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="659713ee-dcd6-4ed8-ab1d-ee44b009fd78" name="Default" comment="" />
@@ -530,18 +578,21 @@
     <history-entry file="Test__OpenPowerEngineering_templates_power_DigitalControl_Control-system_html - 2017.06.24 at 16h 37m 35s.xml">
       <configuration name="Test: OpenPowerEngineering.templates.power.DigitalControl.Control-system.html" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
+    <history-entry file="Test__OpenPowerEngineering_templates_power_DigitalControl_Control-system_html - 2017.06.24 at 17h 05m 54s.xml">
+      <configuration name="Test: OpenPowerEngineering.templates.power.DigitalControl.Control-system.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-17" width="1368" height="786" extended-state="7" />
+    <frame x="-1" y="-17" width="1368" height="786" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2635432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36270192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32592592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19033675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -569,24 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homepage/templates/homepage/homepage.html.py" />
-    <entry file="file://$PROJECT_DIR$/homepage/templates/homepage/post_edit.html" />
-    <entry file="file://$PROJECT_DIR$/homepage/models.py" />
-    <entry file="file://$PROJECT_DIR$/homepage/forms.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/dates.py" />
-    <entry file="file://$PROJECT_DIR$/homepage/templates/homepage/power/power.html" />
-    <entry file="file://$PROJECT_DIR$/homepage/static/homepage/style.css" />
-    <entry file="file://$PROJECT_DIR$/computer/static/homepage/style.css" />
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/static/homepage/style.css" />
-    <entry file="file://$PROJECT_DIR$/power/static/homepage/style.css" />
-    <entry file="file://$PROJECT_DIR$/studentsite/static/homepage/style.css" />
-    <entry file="file://$PROJECT_DIR$/computer/templates/homepage/power/power.html" />
-    <entry file="file://$PROJECT_DIR$/power/templates/homepage/power/power.html" />
-    <entry file="file://$PROJECT_DIR$/studentsite/templates/homepage/power/power.html" />
-    <entry file="file://$PROJECT_DIR$/homepage/templates/homepage/homepage.html" />
-    <entry file="file://$PROJECT_DIR$/homepage/urls.py" />
-    <entry file="file://$PROJECT_DIR$/homepage/templates/homepage/base.html" />
-    <entry file="file://$PROJECT_DIR$/homepage/views.py" />
     <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -608,14 +641,6 @@
     <entry file="file://$PROJECT_DIR$/power/static/power/js/main.js" />
     <entry file="file://$PROJECT_DIR$/power/templates/power/Power System Modelling.html" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/staticfiles/utils.py" />
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -630,112 +655,135 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/form.html" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/homepage.html" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system22x.png" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system21x.png" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system1x.png" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system2x.png" />
+    <entry file="file:///usr/lib/python3.5/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system-3.svg" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/texput.log" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system.html" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/Introduction.html" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/base.html" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/Power System Modelling.html" />
+    <entry file="file://$PROJECT_DIR$/power/forms.py" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/latexify/templates/latexify/stylesheets.html" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/Control-system.html" />
+    <entry file="file://$PROJECT_DIR$/latexify/templates/latexify/scripts.html" />
     <entry file="file://$PROJECT_DIR$/power/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js">
+    <entry file="file://$PROJECT_DIR$/mathlatex/mathlatex.py" />
+    <entry file="file://$PROJECT_DIR$/mathlatex/models.py" />
+    <entry file="file://$PROJECT_DIR$/latexify/templatetags/latexify.py" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="150" column="25" lean-forward="false" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="25" />
-          <folding>
-            <element signature="e#324#333#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="17" column="102" lean-forward="false" selection-start-line="17" selection-start-column="102" selection-end-line="17" selection-end-column="102" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/power/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/Introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/homepage.html">
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/django_mathjax/templatetags/mathjax.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system22x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/power/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="542">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system21x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system1x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.5/unittest/loader.py">
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        <state relative-caret-position="42">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system.html">
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/digital.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/core-scripting.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        <state relative-caret-position="136">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/Introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="11" column="144" lean-forward="false" selection-start-line="11" selection-start-column="144" selection-end-line="11" selection-end-column="144" />
           <folding />
         </state>
       </provider>
