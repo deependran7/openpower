@@ -21,3 +21,9 @@ button.btn.btn-default {
 nav.navbar.navbar-default{
      background-color:#c9c9c9;
 }
+
+.mx-auto{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

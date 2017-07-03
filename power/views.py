@@ -8,7 +8,7 @@ from subprocess import Popen, PIPE
 import os
 
 class Power(TemplateView):
-    template_name = 'homepage.html'
+    template_name = 'Introduction.html'
 
     def Introduction(request):
         template = get_template('Introduction.html')
