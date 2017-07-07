@@ -27,3 +27,7 @@ nav.navbar.navbar-default{
     width: 50%;
     padding: 10px;
 }
+
+.container.formbody{
+    padding: 50px;
+}
