@@ -7,20 +7,24 @@
  <div class="container formbody">
  <h4>Ask your any problem related to the site contents.</h4>
 
- <form class="col-md-4" name="upload" action="https://formspree.io/deependran.neupane@gmail.com" method="POST">
+ <form class="col-md-4" name="upload" action="" method="POST">
         {% csrf_token %}
+
     <div class="form-group">
-    <label for="exampleInputEmail1">Your Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" name="name">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Your Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">
-  </div>
+        <label for="exampleInputEmail1">Your Name</label>
+        {{ form.name }}
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Your Email address</label>
+        {{ form.email }}
+    </div>
+
      <div class="form-group">
-    <label for="exampleInputEmail1">Your question</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Question" name="text">
-  </div>
+        <label for="exampleInputEmail1">Your question</label>
+        {{ form.question }}
+    </div>
+
      <div>
   <button type="submit" class="btn btn-default">Submit</button>
      </div>

@@ -2,11 +2,11 @@ from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template.loader import get_template, render_to_string
-import tempfile
-from subprocess import Popen, PIPE
+
 import os
 from django.core.mail import send_mail, BadHeaderError
 from power.forms import ContactForm
+
 
 class Power(TemplateView):
     template_name = 'Introduction.html'
@@ -28,11 +28,23 @@ class Power(TemplateView):
 
 
 def Uploadfiles(request):
-    template = get_template('form.html')
-    context = {
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            name = request.POST.get('name','')
+            email = request.POST.get('email','')
+            question = request.POST.get('question','')
 
-    }
-    return HttpResponse(template.render(context, request))
+            recipints = ['deependran.neupane@gmail.com']
+
+            send_mail(name, question, email,recipints)
+    else:
+        form = ContactForm()
+
+    return render(request,'form.html', {'form':form})
+
+
+
 
 
 
