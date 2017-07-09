@@ -16,9 +16,11 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 import power.urls
+import computer.urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include(power.urls)),
+    url(r'^computing/',include(computer.urls))
 
 ]
