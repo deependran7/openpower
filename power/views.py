@@ -19,14 +19,6 @@ class Power(TemplateView):
         return HttpResponse(template.render(context, request))
 
 
-
-    #def DigitalControl(request):
-    #    template = get_template('DigitalControl/DigitalControl.html')
-     #   context = {
-
-      #  }
-
-
 def Uploadfiles(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
@@ -38,18 +30,17 @@ def Uploadfiles(request):
             recipints = ['deependran.neupane@gmail.com']
 
             send_mail(name, question, email,recipints)
+            return render(request, 'form.html', {'form': form})
     else:
         form = ContactForm()
 
     return render(request,'form.html', {'form':form})
 
 
-
-
-
-
 class DigitalControl(TemplateView):
-    template_name = 'DigitalControl/DigitalControl.html'
+    template_name = 'DigitalControl/DigitalControl1.html'
+
+
 
 
 class ComputerSol(TemplateView):
