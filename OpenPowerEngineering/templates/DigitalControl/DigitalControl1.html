@@ -29,7 +29,7 @@
         <article>
         <h3>1.1 Introduction to discrete time control system.</h3>
             <p>
-                Discrete tim control systems ar control systems in which one of more variable can change only ate discrete interval of time.
+                Discrete time control systems are control systems in which one of more variable can change only ate discrete interval of time.
                 These instants, are denoted by kT or $t_k$, may specify the times at which some physical measurements is performed of at which
                 the memory of a digital computer is read out.
             </p>
@@ -55,7 +55,7 @@
         <article>
             <h3>1.2 Signal Sampling, quanitizing and coding.</h3>
             <p>
-                A sequence ofvalues at discrete  time points is obtained through the sampling of conntinous time signals. Samplin, in other words, also called
+                A sequence ofvalues at discrete  time points is obtained through the sampling of conntinous time signals. Sampling, in other words, also called
                 descretisation. Whenever a control system involves a digital controlled, sampking is needed. For example, for a solar tracking device, a peroidic sampling
                 of intensity of light along the panel is taken and appropriate contrl process is done.
             </p>
@@ -76,7 +76,7 @@
             <h3>1.3 Data acquistion, conversion and distrubution system.</h3>
             <p>
                 These  are the integral part of digital control system. The basic block digram of data acquistion system is shown below:
-
+                    <img class="img-responsive" src="{%static 'images/digitalcontrol/acquiblock.JPG'%}" alt="Chania">
             </p>
             <p>
                 In data acquistion system, the input to the system is a physical variable, such as, position, velocity, accleration, temperature etc.
@@ -93,12 +93,19 @@
                 pulse signal over time. S/H circuit is an intergral part of A/D converter to produce a number that accuretly represent the input signal at sampling innstant.
                 Specific digital valued is assainged to certain level by the A/D converter to the output of S/H  and hold circuit.
             </p>
-            <p>The block diagram of data distrubution system is shown below:</p>
+            <p>The block diagram of data distrubution system is shown below:
+            <img class="img-responsive" src="{%static 'images/digitalcontrol/distrublock.JPG'%}" alt="Chania">
+            </p>
             <p>
                 The digital output of digital computer is stored in a memory, i.e. in register. It could be temporary or a permanent storage. the dat from memory
                 is fed to digital multiplexer which is synchronized with the input sampling signla that seperates the composite digital output data from
                 controller into original channels. The digital to analog converter and hold both work simultaenously ot convet the digital input ot analog output.
                 Finally, the analog controlled output is fed to individual actuator at different locations.
+            </p>
+
+            <h3>1.4 Reconstruction of the Signal:</h3>
+            <p>
+                <img class="img-responsive" src="{%static 'images/digitalcontrol/first order reconstruction.JPG'%}" alt="Chania">
             </p>
         </article>
 
@@ -140,8 +147,19 @@
                 The Z transform is given as:
                 \[X(z) = Z(x(t)) =\sum_{0}^{\infty} kT z^{-k} = T \sum_{0}^{\infty} k z^{-k} \]
                 \[ = T[ 0 + 1z^{-1} + 2z^{-2} + 3z^{-3} + .....] \]
-                \[= \frac{z^{-1}}{(1-z^{-1})^} = \frac{z}{z-1}\]
+                \[= \frac{z^{-1}}{(1-z^{-1})^2} = \frac{z}{(z-1)^2}\]
 
+            </p>
+            <h4>3. Exponential Function:</h4>
+            <p>
+                Exponential function is defined as :  \[x(t) = \begin{cases}
+                0 & t < 0 \\
+                e^{-at} = e^{-akT} & t \geq 0
+                \end{cases}\]
+                The Z transform is given as:
+                \[X(z) = Z(x(t)) =\sum_{0}^{\infty} e^{-akT} z^{-k} \]
+                \[= 1 + e^{-aT}z^{-1} + e^{-2aT}z^{-2} + e ^ {-3aT}z^{-3} .......\]
+                \[= \frac{1}{1- e^{-aT}z^{-1}}\]
             </p>
 
         </article>
