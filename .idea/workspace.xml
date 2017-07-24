@@ -2,7 +2,321 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659713ee-dcd6-4ed8-ab1d-ee44b009fd78" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ast/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ast/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ast/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ast/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ast/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ast/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ast/ast.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bcc/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bcc/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bcc/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bcc/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bcc/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bcc/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bcc/bcc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bg/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bg/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bg/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bg/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bg/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bg/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/bg/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/br/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/br/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/br/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/br/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/br/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/br/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/br/br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ca/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ca/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ca/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ca/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ca/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ca/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ca/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cdo/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cdo/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cdo/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cdo/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cdo/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cdo/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cdo/cdo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ce/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ce/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ce/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ce/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ce/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ce/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ce/ce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cs/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cs/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cs/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cs/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cs/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cs/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cs/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cy/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cy/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cy/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cy/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cy/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cy/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/cy/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/da/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/da/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/da/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/da/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/da/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/da/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/da/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/de/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/de/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/de/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/de/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/de/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/de/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/de/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/diq/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/diq/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/diq/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/diq/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/diq/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/diq/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/diq/diq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/en/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/en/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/en/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/en/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/en/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/en/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/en/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/eo/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/eo/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/eo/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/eo/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/eo/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/eo/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/eo/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/es/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/es/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/es/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/es/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/es/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/es/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/es/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fa/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fa/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fa/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fa/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fa/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fa/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fa/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fi/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fi/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fi/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fi/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fi/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fi/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fi/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fr/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fr/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fr/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fr/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fr/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fr/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/fr/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/gl/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/gl/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/gl/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/gl/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/gl/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/gl/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/gl/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/he/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/he/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/he/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/he/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/he/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/he/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/he/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ia/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ia/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ia/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ia/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ia/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ia/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ia/ia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/it/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/it/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/it/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/it/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/it/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/it/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/it/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ja/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ja/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ja/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ja/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ja/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ja/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ja/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/kn/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/kn/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/kn/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/kn/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/kn/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/kn/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/kn/kn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ko/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ko/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ko/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ko/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ko/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ko/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ko/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lb/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lb/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lb/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lb/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lb/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lb/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lb/lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lki/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lki/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lki/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lki/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lki/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lki/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lki/lki.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lt/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lt/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lt/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lt/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lt/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lt/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/lt/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/mk/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/mk/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/mk/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/mk/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/mk/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/mk/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/mk/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/nl/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/nl/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/nl/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/nl/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/nl/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/nl/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/nl/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/oc/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/oc/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/oc/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/oc/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/oc/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/oc/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/oc/oc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pl/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pl/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pl/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pl/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pl/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pl/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pl/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt-br/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt-br/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt-br/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt-br/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt-br/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt-br/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt-br/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/pt/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/qqq/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/qqq/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/qqq/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/qqq/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/qqq/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/qqq/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/qqq/qqq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ru/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ru/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ru/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ru/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ru/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ru/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/ru/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/scn/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/scn/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/scn/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/scn/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/scn/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/scn/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/scn/scn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sco/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sco/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sco/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sco/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sco/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sco/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sco/sco.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sl/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sl/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sl/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sl/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sl/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sl/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sl/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sv/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sv/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sv/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sv/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sv/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sv/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/sv/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/tr/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/tr/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/tr/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/tr/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/tr/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/tr/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/tr/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/uk/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/uk/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/uk/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/uk/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/uk/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/uk/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/uk/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/vi/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/vi/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/vi/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/vi/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/vi/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/vi/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/vi/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/zh-hans/FontWarnings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/zh-hans/HTML-CSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/zh-hans/HelpDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/zh-hans/MathML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/zh-hans/MathMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/zh-hans/TeX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/MathJax-2.7.1/localization/zh-hans/zh-hans.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl1.html" afterPath="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/admin.py" afterPath="$PROJECT_DIR$/power/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/models.py" afterPath="$PROJECT_DIR$/power/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/urls.py" afterPath="$PROJECT_DIR$/power/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/views.py" afterPath="$PROJECT_DIR$/power/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +337,40 @@
       <file leaf-file-name="DigitalControl1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="105" column="19" lean-forward="false" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+            <state relative-caret-position="453">
+              <caret line="166" column="34" lean-forward="false" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/power/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/power/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/power/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -37,8 +383,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,8 +394,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/homepage/forms.py" />
-        <option value="$PROJECT_DIR$/homepage/templates/homepage/homepage.html.py" />
         <option value="$PROJECT_DIR$/homepage/templates/homepage/form.html" />
         <option value="$PROJECT_DIR$/homepage/templates/homepage/post_edit.html" />
         <option value="$PROJECT_DIR$/homepage/models.py" />
@@ -75,7 +419,6 @@
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/power/Introduction.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/power/DigitalControl/Control-system.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/Power System Modelling.html" />
-        <option value="$PROJECT_DIR$/power/models.py" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/digital.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/homepage.html" />
@@ -95,9 +438,12 @@
         <option value="$PROJECT_DIR$/OpenPowerEngineering/settings.py" />
         <option value="$PROJECT_DIR$/power/forms.py" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/Introduction.html" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/form.html" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/permission.html" />
+        <option value="$PROJECT_DIR$/power/models.py" />
+        <option value="$PROJECT_DIR$/power/admin.py" />
         <option value="$PROJECT_DIR$/power/urls.py" />
         <option value="$PROJECT_DIR$/power/views.py" />
-        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/form.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl1.html" />
       </list>
     </option>
@@ -109,10 +455,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,6 +476,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,103 +504,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DigitalControl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenPowerEngineering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +514,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="svg&#9;ACTION&#9;ActivateSvgViewerToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="google&#9;null&#9;null&#10;svg&#9;ACTION&#9;ActivateSvgViewerToolWindow" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -542,20 +794,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18008785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33531156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35962147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32492113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42284867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -580,17 +832,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/power/templates/power/Introduction.html" />
-    <entry file="file://$PROJECT_DIR$/power/static/power/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/power/templates/power/Power System Modelling.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/staticfiles/utils.py" />
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -614,13 +855,6 @@
     <entry file="file://$PROJECT_DIR$/latexify/templates/latexify/stylesheets.html" />
     <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/Control-system.html" />
     <entry file="file://$PROJECT_DIR$/latexify/templates/latexify/scripts.html" />
-    <entry file="file://$PROJECT_DIR$/power/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mathlatex/mathlatex.py" />
     <entry file="file://$PROJECT_DIR$/mathlatex/models.py" />
     <entry file="file://$PROJECT_DIR$/latexify/templatetags/latexify.py" />
@@ -685,25 +919,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/computer/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/form.txt" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/utils/module_loading.py" />
-    <entry file="file://$PROJECT_DIR$/power/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2839">
@@ -715,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,32 +953,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/permission.html" />
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/Introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/computer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/computer/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/sitemaps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/power/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding>
-            <element signature="e#0#45#0" expanded="false" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/Introduction.html">
+    <entry file="file://$PROJECT_DIR$/power/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="221">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="105" column="19" lean-forward="false" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+        <state relative-caret-position="453">
+          <caret line="166" column="34" lean-forward="false" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
           <folding />
         </state>
       </provider>

@@ -8,7 +8,7 @@ urlpatterns = [
     url(r'^introduction00$', Power.Introduction, name='Introduction'),
 
 
-    url(r'^digitalcontrol1$', DigitalControl.as_view(), name='DigitalControl'),
+    url(r'^digitalcontrol1$', DigitalControl.Content, name='DigitalControl'),
 
 
     url(r'^uploadfiles$',Uploadfiles, name='Upload'),
