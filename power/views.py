@@ -1,10 +1,9 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 from django.views.generic import TemplateView
-from django.http import HttpResponse, HttpResponseRedirect
-from django.template.loader import get_template, render_to_string
-from .models import Documents
-import os
-from django.core.mail import send_mail, BadHeaderError
+from django.http import HttpResponse
+from django.template.loader import get_template
+
+from django.core.mail import send_mail
 from power.forms import ContactForm
 
 
@@ -40,11 +39,10 @@ def Uploadfiles(request):
 class DigitalControl(TemplateView):
 
     def Content(request):
-        Document = Documents.objects.all()
         template = get_template('DigitalControl/DigitalControl1.html')
         context = {
 
-            'document':Document,
+
         }
         return HttpResponse(template.render(context, request))
 
