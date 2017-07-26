@@ -10,8 +10,8 @@ from power.forms import ContactForm
 class Power(TemplateView):
     template_name = 'Introduction.html'
 
-    def Introduction(request):
-        template = get_template('Introduction.html')
+    def Overview(request):
+        template = get_template('overview.html')
         context = {
 
         }

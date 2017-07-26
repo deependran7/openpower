@@ -5,10 +5,10 @@ app_name = 'power'
 
 urlpatterns = [
     url(r'^$', Power.as_view(), name='homepage'),
-    url(r'^introduction00$', Power.Introduction, name='Introduction'),
+    url(r'^introduction$', Power.Overview, name='Overview'),
 
 
-    url(r'^digitalcontrol1$', DigitalControl.Content, name='DigitalControl'),
+    url(r'^digitalcontrol$', DigitalControl.Content, name='DigitalControl'),
 
 
     url(r'^uploadfiles$',Uploadfiles, name='Upload'),

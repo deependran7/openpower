@@ -31,3 +31,17 @@ nav.navbar.navbar-default{
 .container.formbody{
     padding: 50px;
 }
+
+.col-md-9.row{
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+p{
+    font-family: Cambria Math;
+    font-size:18px;
+}
+.list-group-item{
+    font-family: "Cambria Math";
+    font-size:20px;
+}

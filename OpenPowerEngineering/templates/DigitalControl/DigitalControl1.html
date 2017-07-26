@@ -5,12 +5,12 @@
 {% block body %}
  <div class="container-fluid">
  <div class="mx-auto">
-     <h1>Digital Control Engineering</h1>
+     <h1>{% block heading %}Digital Control Engineering{% endblock %}</h1>
 
  </div>
     <div class="col-md-3 row">
         <div class="list-group">
-          <a href="{% url 'power:Introduction' %}" class="list-group-item">Introduction</a>
+          <a href="{% url 'power:Overview' %}" class="list-group-item ">Overview</a>
           <a href="#" class="list-group-item">Power System Modelling</a>
           <a href="#" class="list-group-item">Load Flow Analysis</a>
           <a href="#" class="list-group-item">Fault Analysis</a>
@@ -108,7 +108,6 @@
                 <img class="img-responsive" src="{%static 'images/digitalcontrol/first order reconstruction.JPG'%}" alt="Chania">
             </p>
         </article>
-
         <h2>2. Z- Transform and It's Inverse</h2>
         <article>
             <h3>2.1. Definition of Z- transform.</h3>
@@ -165,5 +164,7 @@
         </article>
 
     </div>
+
+        {% endblock %}
 </div>
-{% endblock %}
+

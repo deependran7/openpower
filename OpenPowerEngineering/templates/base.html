@@ -47,7 +47,7 @@
               <ul class="nav navbar-nav">
 
                   <li class = "">
-                      <a href="{% url 'power:Introduction' %}">
+                      <a href="{% url 'power:Overview' %}">
                           <span class="glyphicon glyphicon-book" aria-hidden="true"></span> &nbsp;
                           Power Engineering
                       </a>
@@ -75,16 +75,15 @@
                           <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Ask Question
                       </a>
                     </li>
-                  </ul>
+              </ul>
 
-
-
-              <form class="navbar-form navbar-left" role="search" method = "get" action="#">
-
-
-              </form>
-
-
+              <ul class="nav navbar-nav navbar-left">
+                  <li>
+                      <a href="{% url 'power:Upload' %}">
+                          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp; Question's Answer
+                      </a>
+                    </li>
+              </ul>
           </div>
       </div>
   </nav>
@@ -92,7 +91,7 @@
   <div class="row">
       {% block body %}
 
-          <h1>{% block heading %}{% endblock %}</h1>
+          {% block heading %}{% endblock %}
 
       {% endblock %}
 
