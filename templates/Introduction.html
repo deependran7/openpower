@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %} Power Engineering {% endblock %}
+
+
+{% block body %}
+ <div class="container-fluid">
+     <div class="mx-auto">
+     <h1>Welcome to Open Power World</h1>
+     </div>
+
+    <div class="col-md-9 row">
+        {% block content %}
+            <p>
+            Power system engineering is a growing field in Electrical Engineering. Basically, power engineering
+            includes both challenges rewards on the aspects of problems and solutions that come in to it.
+            </p>
+         {% endblock %}
+
+
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %}Question{% endblock %}
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+
+{% block body %}
+ <div class="container formbody">
+ <h4>Ask your any problem related to the site contents.</h4>
+
+ <form class="col-md-4" name="upload" action="" method="POST">
+        {% csrf_token %}
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Your Name</label>
+        {{ form.name }}
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Your Email address</label>
+        {{ form.email }}
+    </div>
+
+     <div class="form-group">
+        <label for="exampleInputEmail1">Your question</label>
+        {{ form.question }}
+    </div>
+
+     <div>
+  <button type="submit" class="btn btn-default">Submit</button>
+     </div>
+</form>
+ </div>
+{% endblock %}

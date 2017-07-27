@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>{% block title %}Open Engineering {% endblock %}</title>
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static 'MathJax-2.7.1/MathJax.js?config=TeX-AMS_HTML-full' %}"></script>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+    </script>
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+    <script src="{% static 'bootstrap/js/jquery.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+</head>
+<body class="container-fluid">
+
+  <div class="jumbotron" id="top">
+
+    <h1 class="display-3">Power System Engineering</h1>
+    <h2> Mathematical Way For Power And Energy </h2>
+
+  </div>
+
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <!-- LOGO-->
+          <div class = "navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle = "collapse" data-target = "#topNavBar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand " href="{% url 'power:homepage' %} ">Home</a>
+          </div>
+          <!--items-->
+
+          <div class = "collapse navbar-collapse" id="topNavBar">
+              <ul class="nav navbar-nav">
+
+                  <li class = "">
+                      <a href="{% url 'power:Overview' %}">
+                          <span class="glyphicon glyphicon-book" aria-hidden="true"></span> &nbsp;
+                          Power Engineering
+                      </a>
+
+                  </li>
+                  <li class = "">
+                      <a href="{% url 'computer:Homepage' %}">
+                          <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> &nbsp;
+                          Computer Solutions
+                      </a>
+
+                  </li>
+
+              </ul>
+              <form class="navbar-form navbar-left" role="search" method="get" action="">
+                  <div class="form-group">
+                      <input type="text" class="form-control" name="q" value="">
+                  </div>
+                  <button type="button" class="btn btn-default"> Search</button>
+              </form>
+
+              <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a href="{% url 'power:Upload' %}">
+                          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Ask Question
+                      </a>
+                    </li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a href="{% url 'blog:homepage' %}">
+                          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp; Question's Talks
+                      </a>
+                    </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <div class="row">
+      {% block body %}
+
+          {% block heading %}{% endblock %}
+
+      {% endblock %}
+
+  </div>
+
+      <!--block of code will be continued -->
+
+
+  <footer class="jumbotron">
+      <div class="row" >
+            <div class="col-md-4 col-sm-6 footerleft ">
+               <h6 class="heading2"><strong>POWER SYSTEM ENGINEERING</strong></h6><br>
+                <p><i class="fa fa-phone"></i> Developed by: Deependra Neupane</p>
+              <p><i class="fa fa-map-pin"></i> Gaindakot-1, Nawalparasi, Western Region, Nepal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+              <p><i class="fa fa-phone"></i> Phone (Nepal):  +977-9846642367</p>
+
+              <p><i class="fa fa-envelope"></i> E-mail: deependran.neupane@gmail.com</p>
+
+            </div>
+            <div class="col-md-2 col-sm-6 paddingtop-bottom">
+              <h6 class="heading7">GENERAL LINKS</h6>
+              <ul class="footer-ul">
+                <li><a href="http://www.wrc.edu.np/"> Western Region Campus</a></li>
+                <li><a href="https://ioe.edu.np/">Institute of Engineering (IOE) </a></li>
+                <li><a href="http://www.npibharatpur.org.np/"> Nepal Polytechnique Institute</a></li>
+                <li><a href="https://www.ieee.org/index.html"> IEEE Explore</a></li>
+                <li><a href="http://www.powersystem.org/"> PSE</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 paddingtop-bottom">
+              <h6 class="heading7">LATEST POST</h6>
+              <div class="post">
+                <p>Site published: <span>June-14-2017</span></p>
+
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 paddingtop-bottom">
+                <h6 class="heading7">SHARE ON</h6>
+              <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <div class="fb-xfbml-parse-ignore">
+
+                  <blockquote cite="https://www.facebook.com/facebook">
+                      <a href="https://www.facebook.com/dipendra.neupane1">Facebook</a>
+                  </blockquote>
+
+                    <blockquote cite="https://www.plusgoogel.com">
+                      <a href="https://plus.google.com/u/0/117518755352939766100">Google Plus</a>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+  </footer>
+
+
+</body>
+</html>
