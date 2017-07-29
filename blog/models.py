@@ -4,6 +4,8 @@ from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.conf import settings
 # Create your models here.
+
+
 def upload_location(instance,filename):
     return "%s/%s" %(instance.id, filename)
 
