@@ -20,11 +20,16 @@ import power.urls
 import computer.urls, blog.urls
 from django.conf.urls.static import static
 
+from accounts.views import login_view,logout_view,register_view
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include(power.urls)),
     url(r'^computing/',include(computer.urls)),
-    url(r'^blog/',include(blog.urls)),
+    url(r'^blog/',include(blog.urls), name='blog'),
+    url(r'^login/', login_view , name='login'),
+    url(r'^logout/',logout_view, name='logout'),
+    url(r'^register/',register_view, name='register'),
 
 ]
 

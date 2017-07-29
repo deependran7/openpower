@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Question{% endblock %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+
+{% block body %}
+ <div class="container formbody">
+ <h3>Login to your Account</h3>
+
+ <form class="col-md-4" name="upload" action="" method="POST">
+        {% csrf_token %}
+
+
+        {{ loginform|crispy }}
+
+     <div>
+  <button type="submit" class="btn btn-default">Submit</button>
+     </div>
+</form>
+ </div>
+{% endblock %}

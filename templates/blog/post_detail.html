@@ -20,11 +20,14 @@
 
         <div class="lead">
             Comments:
+        {% if request.user.is_authenticated %}
         <form method="post" action="."> {% csrf_token %}
             {{ comment_form }}
             <input type="submit" value="Post-Comment" class="btn btn-default">
         </form>
-
+        {% else %}
+            <p>You must <a href="{% url "login" %}">login</a> to comment.</p>
+        {% endif %}
             <hr/>
 
             {% for comment in comments %}

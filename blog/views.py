@@ -8,7 +8,7 @@ from .models import *
 from django.db.models import Q
 from blogcomment.models import Comment
 from blogcomment.forms import CommentForm
-
+#from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 
@@ -41,7 +41,7 @@ def posts_list(request):
 
 
 def posts_create(request):
-    if not request.user.is_staff or not request.user.is_superuser:
+    if not request.user.is_staff or not request.user.is_superuser or not request.user:
         raise Http404
     form = PostForm(request.POST or None, request.FILES or None)
     if form.is_valid():
@@ -66,7 +66,7 @@ def posts_detail(request, id=None):
         "object_id" : instance.id
     }
     form = CommentForm(request.POST or None, initial=initial_data)
-    if form.is_valid():
+    if form.is_valid() and request.user.is_authenticated():
         c_type = form.cleaned_data.get("content_type")
         content_type = ContentType.objects.get(model=c_type)
         obj_id = form.cleaned_data.get("object_id")

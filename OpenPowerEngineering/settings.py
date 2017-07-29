@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',
+    'crispy_forms',
     'computer',
     'power',
     'blog',
@@ -55,6 +56,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
+LOGIN_URL = "/login/"
 ROOT_URLCONF = 'OpenPowerEngineering.urls'
 #the files of templates can be used in any app from anywhere
 
