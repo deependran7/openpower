@@ -5,3 +5,4 @@ class CommentForm(forms.Form):
     object_id = forms.IntegerField(widget=forms.HiddenInput)
     #parent_id = forms.IntegerField(widget=forms.HiddenInput)
     content = forms.CharField(label='', widget=forms.Textarea)
+    content.widget.attrs.update({'class': 'form-control'})

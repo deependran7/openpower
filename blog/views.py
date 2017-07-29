@@ -77,6 +77,8 @@ def posts_detail(request, id=None):
             object_id = obj_id,
             content = content_data
         )
+        if created:
+            print("ok done")
 
         return HttpResponseRedirect(new_comment.content_object.get_absolute_url())
 
