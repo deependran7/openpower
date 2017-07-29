@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'computer',
     'power',
     'blog',
+    'blogcomment',
 ]
 
 MIDDLEWARE = [
