@@ -41,21 +41,23 @@ def posts_list(request):
 
 
 def posts_create(request):
-    if not request.user.is_staff or not request.user.is_superuser or not request.user:
-        raise Http404
-    form = PostForm(request.POST or None, request.FILES or None)
-    if form.is_valid():
-        instance = form.save(commit=False)
-        instance.save()
-        messages.success(request, "Thank you for your issue.")
+    if request.user.is_staff or request.user.is_superuser or request.user.is_authenticated:
 
-        return HttpResponseRedirect(reverse('blog:homepage'))
+        form = PostForm(request.POST or None, request.FILES or None)
+        if form.is_valid():
+            instance = form.save(commit=False)
+            instance.save()
+            messages.success(request, "Thank you for your issue.")
+
+            return HttpResponseRedirect(reverse('blog:homepage'))
+        else:
+            messages.error(request, "Sorry, not valid data.")
+            context = {
+                "form": form,
+            }
+        return render(request, "blog/post_form.html", context)
     else:
-        messages.error(request, "Sorry, not valid data.")
-        context = {
-            "form": form,
-        }
-    return render(request, "blog/post_form.html", context)
+        raise Http404
 
 
 def posts_detail(request, id=None):
