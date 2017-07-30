@@ -45,3 +45,10 @@ p{
     font-family: "Cambria Math";
     font-size:20px;
 }
+
+.custom_row_size{
+    padding-left: 20px;
+    padding-right: inherit;
+    padding-bottom: 20px;
+    padding-top:20px;
+}

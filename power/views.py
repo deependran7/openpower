@@ -17,7 +17,7 @@ class Power(TemplateView):
         }
         return HttpResponse(template.render(context, request))
 
-
+#only for documentation
 def Uploadfiles(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
@@ -33,7 +33,7 @@ def Uploadfiles(request):
     else:
         form = ContactForm()
 
-    return render(request,'form.html', {'form':form})
+    return HttpResponse("<h2> Requested page not found.</h2>")
 
 
 class DigitalControl(TemplateView):

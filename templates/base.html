@@ -71,19 +71,42 @@
 
               <ul class="nav navbar-nav navbar-right">
                   <li>
-                      <a href="{% url 'power:Upload' %}">
-                          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Ask Question
+                      <a href="{% url 'blog:homepage' %}">
+                          <span class="glyphicon glyphicon-align-center" aria-hidden="true"></span>&nbsp; Question's Talks
                       </a>
                     </li>
+
+                  {% if not request.user.is_authenticated %}
+
+                  <li>
+                      <a href="{% url "login" %}">
+                          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp; Login
+                      </a>
+                    </li>
+
+                  <li>
+                      <a href="{% url "register" %}">
+                          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Register
+                      </a>
+                    </li>
+
+                  {% else %}
+
+                  <li>
+                      <a href="{% url "blog:create" %}">
+                          <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>&nbsp; Ask Question
+                      </a>
+                    </li>
+
+                  <li>
+                      <a href="{% url "logout" %}">
+                          <span class="glyphicon glyphicon-share" aria-hidden="true"></span>&nbsp; Logout
+                      </a>
+                    </li>
+
+                  {% endif %}
               </ul>
 
-              <ul class="nav navbar-nav navbar-right">
-                  <li>
-                      <a href="{% url 'blog:homepage' %}">
-                          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp; Question's Talks
-                      </a>
-                    </li>
-              </ul>
           </div>
       </div>
   </nav>

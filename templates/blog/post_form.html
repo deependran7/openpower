@@ -3,10 +3,19 @@
 {% load crispy_forms_tags %}
 
 {% block body %}
+    <div class="custom_row_size">
 
-    <form method="post" action="" enctype="multipart/form-data">{% csrf_token %}
-        {{ form|crispy }}
-    <input type="submit" value="Create Issue">
-    </form>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h4>You can upload the image writing the problem. </h4>
+                <form method="post" action="" enctype="multipart/form-data">{% csrf_token %}
+                    {{ form|crispy }}
+                <input type="submit" value="Create Issue">
+                </form>
+            </div>
+
+        </div>
+    </div>
 
 {% endblock %}
