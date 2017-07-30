@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %} Blog {% endblock %}
+{% load crispy_forms_tags %}
+
+{% block body %}
+    <div class="custom_row_size">
+
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h4>You can upload the image writing the problem. </h4>
+                <form method="post" action="" enctype="multipart/form-data">{% csrf_token %}
+                    {{ form|crispy }}
+                <input class="form-control" type="submit" value="Upload Your Note">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock %}

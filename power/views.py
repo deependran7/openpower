@@ -29,7 +29,7 @@ def Uploadfiles(request):
             recipints = ['deependran.neupane@gmail.com']
 
             send_mail(name, question, email,recipints)
-            return render(request, 'form.html', {'form': form})
+            return render(request, 'notes/Notesupload.html', {'form': form})
     else:
         form = ContactForm()
 
