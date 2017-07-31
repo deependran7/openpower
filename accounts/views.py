@@ -11,7 +11,7 @@ def login_view(request):
         user = authenticate(username= username, password = password)
         login(request,user)
         return redirect("/blog")
-    return render(request, "loginform.html", {"loginform":form})
+    return render(request, "loginform.html", {"loginform":form, "title":"Login to your account."})
 
 def register_view(request):
     form = UserRegisterForm(request.POST or None)
@@ -25,6 +25,7 @@ def register_view(request):
         login(request,new_user)
         return redirect("/blog")
     context = {
+        "title":"Be a new user",
         "loginform":form,
     }
     return render(request, "loginform.html", context)

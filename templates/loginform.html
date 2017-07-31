@@ -7,7 +7,11 @@
 
 {% block body %}
  <div class="container formbody">
- <h3>Login to your Account</h3>
+ {% if title %}
+ <h3>
+     {{ title }}
+ </h3>
+     {% endif %}
 
  <form class="col-md-4" name="upload" action="" method="POST">
         {% csrf_token %}
