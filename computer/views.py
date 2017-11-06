@@ -22,3 +22,10 @@ def Simulink(request):
 
 def Raspberry(reqest):
     pass
+
+def Psat(request):
+    template = get_template('Computer/psat.html')
+    context = {
+
+    }
+    return HttpResponse(template.render(context, request))

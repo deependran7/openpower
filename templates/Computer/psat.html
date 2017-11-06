@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %} Computer Solution {% endblock %}
+
+
+{% block body %}
+ <div class="container-fluid">
+ <div class="mx-auto">
+     <h2>Introduction to Scientific Computation and Progamming</h2>
+
+ </div>
+    <div class="col-md-3 row">
+        <div class="list-group">
+          <a href="{% url 'computer:Homepage' %}" class="list-group-item ">Introduction</a>
+          <a href="#" class="list-group-item">Matlab Basics</a>
+          <a href="#" class="list-group-item">Simulink</a>
+          <a href="{% url 'computer:Psat' %}" class="list-group-item active">Power System Toolbox(Pat)</a>
+        </div>
+    </div>
+
+    <div class="col-md-9 row">
+<p>
+    The Power System Analysis Toolbox (PSAT) is a Matlab toolbox for electric power system analysis and simulation.
+    The command line version of PSAT is also GNU Octave compatible. All operations can
+    be assessed by means of graphical user interfaces (GUIs) and a Simulink-based library provides an user-friendly tool for network design.
+</p>
+        <p> Here is my tutorial on how to integrate psat in matlab and use it.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eSUvXJtQSXQ" frameborder="0" allowfullscreen></iframe>
+
+    </div>
+</div>
+{% endblock %}

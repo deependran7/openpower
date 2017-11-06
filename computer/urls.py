@@ -8,6 +8,7 @@ urlpatterns = [
     url(r'^introduction$', Matlab, name='Introduction'),
     url(r'^matlab$', Simulink, name='MatlabBasics'),
     url(r'^simulink$', Raspberry, name= 'Simulink'),
+    url(r'^psat$', Psat, name= 'Psat'),
 
 
 ]
