@@ -16,22 +16,17 @@ Including another URLconf
 from django.conf import settings
 from django.conf.urls import url, include
 from django.contrib import admin
+
+import computer.urls
 import power.urls
-import computer.urls, blog.urls
+
 from django.conf.urls.static import static
-from yournotes.views import note_view,note_save
-from accounts.views import login_view,logout_view,register_view
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include(power.urls)),
     url(r'^computing/',include(computer.urls)),
-    url(r'^blog/',include(blog.urls), name='blog'),
-    url(r'^login/', login_view , name='login'),
-    url(r'^logout/',logout_view, name='logout'),
-    url(r'^register/',register_view, name='register'),
-    url(r'^notes/',note_view, name='yournotes'),
-    url(r'^uploadnotes/',note_save, name='noteupload'),
 
 ]
 

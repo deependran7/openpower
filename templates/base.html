@@ -13,25 +13,23 @@
     });
     </script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
     <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
     <script src="{% static 'bootstrap/js/jquery.min.js' %}"></script>
     <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="{% static 'js/main.js' %}"></script>
 
 </head>
 <body class="container-fluid">
-
-  <div class="jumbotron" id="top">
-
-    <h1 class="display-3">Power System Engineering</h1>
-    <h2> Mathematical Way For Power And Energy </h2>
-
-  </div>
-
+ <div class="container">
+ <div>
+    <!-- Navigation bar -->
   <nav class="navbar navbar-default">
-      <div class="container-fluid">
+      <div class="container-fluid nav">
           <!-- LOGO-->
           <div class = "navbar-header">
               <button type="button" class="navbar-toggle" data-toggle = "collapse" data-target = "#topNavBar">
@@ -62,63 +60,32 @@
                   </li>
 
               </ul>
+          <!-- search bar
               <form class="navbar-form navbar-left" role="search" method="get" action="">
                   <div class="form-group">
                       <input type="text" class="form-control" placeholder="Search" name="q" >
                   </div>
                   <input type="submit" value="Search" class="btn btn-default"></input>
               </form>
-
-              <ul class="nav navbar-nav navbar-right">
-                  <li>
-                      <a href="{% url 'blog:homepage' %}">
-                          <span class="glyphicon glyphicon-align-center" aria-hidden="true"></span>&nbsp; Question's Talks
-                      </a>
-                    </li>
-
-                  {% if not request.user.is_authenticated %}
-
-                  <li>
-                      <a href="{% url "login" %}">
-                          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp; Login
-                      </a>
-                    </li>
-
-                  <li>
-                      <a href="{% url "register" %}">
-                          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Register
-                      </a>
-                    </li>
-
-                  {% else %}
-
-                  <li>
-                  <a href="{% url "yournotes" %}">
-                      <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>&nbsp; Your Notes
-                  </a>
-                </li>
+            -->
 
 
-                  <li>
-                      <a href="{% url "blog:create" %}">
-                          <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>&nbsp; Ask Question
-                      </a>
-                    </li>
-
-                  <li>
-                      <a href="{% url "logout" %}">
-                          <span class="glyphicon glyphicon-share" aria-hidden="true"></span>&nbsp; Logout
-                      </a>
-                    </li>
-
-                  {% endif %}
-              </ul>
 
           </div>
       </div>
   </nav>
+ </div>
+  <div class="jumbotron" id="top">
+
+    <h1 class="display-3">Power System Engineering</h1>
+    <h2> Mathematical Way For Power And Energy </h2>
+
+  </div>
+
+
 
   <div class="row">
+
       {% block body %}
 
           {% block heading %}{% endblock %}
@@ -176,6 +143,6 @@
           </div>
   </footer>
 
-
+</div>
 </body>
 </html>

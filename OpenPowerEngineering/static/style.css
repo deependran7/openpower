@@ -1,4 +1,10 @@
+.container-fluid{
+    background: linear-gradient(saddlebrown, black);
+}
 
+.container{
+   background-color: #1b6d85;
+}
 .list-group-item.active{
 
     background-color: #9ad3de;
@@ -51,4 +57,7 @@ p{
     padding-right: inherit;
     padding-bottom: 20px;
     padding-top:20px;
+}
+p{
+    color: white;
 }
