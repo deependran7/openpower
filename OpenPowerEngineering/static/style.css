@@ -1,67 +1,14 @@
 .container-fluid{
-    background: linear-gradient(saddlebrown, black);
+    background-color:#9dcef9 ;
 }
 
-.container{
-   background-color: #1b6d85;
+.container-fluid.nav{
+    background-color: #57a0e0;
 }
-.list-group-item.active{
-
-    background-color: #9ad3de;
-}
-
-a.btn.btn-primary.btn-lg {
-    background-color: #9ad3de;
-}
-button.btn.btn-default {
-    background-color: #9ad3de;
+.jumbotron{
+    background-color:#57a0e0 ;
 }
 
- #top{
-    background-color: #e3e3e3;
-}
-
- #topNavBar{
-      background-color: #dbc8c3;
- }
- .jumbotron{
-     background-color:#c9c9c9;
- }
-
-nav.navbar.navbar-default{
-     background-color:#c9c9c9;
-}
-
-.mx-auto{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-.container.formbody{
-    padding: 50px;
-}
-
-.col-md-9.row{
-    margin-left: 8px;
-    margin-right: 20px;
-}
-
-p{
-    font-family: Cambria Math;
-    font-size:18px;
-}
-.list-group-item{
-    font-family: "Cambria Math";
-    font-size:20px;
-}
-
-.custom_row_size{
-    padding-left: 20px;
-    padding-right: inherit;
-    padding-bottom: 20px;
-    padding-top:20px;
-}
-p{
-    color: white;
+.navbar.navbar-default{
+    background-color: #57a0e0;
 }

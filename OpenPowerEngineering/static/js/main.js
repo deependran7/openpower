@@ -1,6 +1,6 @@
 /**
  * Created by Deependra on 6/13/2017.
- */
+
 
 $(document).ready(function () {
    var x =6 ;
@@ -14,3 +14,4 @@ $(document).ready(function () {
     
 });
 
+*/

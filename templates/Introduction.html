@@ -3,28 +3,27 @@
 
 
 {% block body %}
- <div class="container">
-     <div class="mx-auto">
-     <h1>Welcome to Open Power World</h1>
-     </div>
+     <div class="container-fluid">
+ <div class="mx-auto">
 
+
+          <nav class="navbar navbar-default">
+  <div class="container">
+
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{% url 'power:Homepage' %}">Introduction</a></li>
+      <li><a href="#">Tutorials</a></li>
+      <li><a href="#">Notes and Books</a></li>
+    </ul>
+  </div>
+</nav>
+
+ </div>
     <div class="col-md-9 row">
-        {% block content %}
-            <p>
-            Power system engineering is a growing field in Electrical Engineering. Basically, power engineering
-            includes both challenges rewards on the aspects of problems and solutions that come in to it.
-
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/eSUvXJtQSXQ" frameborder="0" allowfullscreen></iframe>
-            </p>
-
-
-            <script type="text/javascript"> function testMethods1(){ /* testing differences between getTime/1000 vs. subtracting milliseconds vs. parseInt(getTime/1000) */ var d1 = new Date(); var d1t0 = d1.getTime()/1000; var d1t1 = (d1.getTime()-d1.getMilliseconds())/1000; var d1t2 = parseInt(d1.getTime()/1000); var msg = 'Testing various methods:' +'\n1) Date.getTime()/1000 = '+d1t0 +'\n2) (Date.getTime()-Date.getMilliseconds())/1000 = '+d1t1 +'\n3) parseInt(Date.getTime()/1000) = '+d1t2 alert(msg)
-                return false } </script>
-            <p><a href="#" onclick="return testMethods1()">Click to test</a> </p>
-         {% endblock %}
-
-
+<p>
+    The Power System Analysis Toolbox (PSAT) is a Matlab toolbox for electric power system analysis and simulation.
+    The command line version of PSAT is also GNU Octave compatible. All operations can
+    be assessed by means of graphical user interfaces (GUIs) and a Simulink-based library provides an user-friendly tool for network design.
     </div>
 </div>
 {% endblock %}

@@ -5,21 +5,21 @@
 {% block body %}
  <div class="container-fluid">
  <div class="mx-auto">
-     <h2>Introduction to Scientific Computation and Progamming</h2>
+
+
+          <nav class="navbar navbar-default">
+  <div class="container">
+
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{% url 'computer:Homepage' %}">Introduction</a></li>
+      <li><a href="#">Matlab Basics</a></li>
+      <li><a href="#">Simulink</a></li>
+      <li><a href="{% url 'computer:Psat' %}">Power System Toolbox</a></li>
+    </ul>
+  </div>
+</nav>
 
  </div>
-    <div class="col-md-3 row">
-        <div class="list-group">
-          <a href="{% url 'computer:Homepage' %}" class="list-group-item active">Introduction</a>
-          <a href="#" class="list-group-item">Matlab Basics</a>
-          <a href="#" class="list-group-item">Simulink</a>
-          <a href="{% url 'computer:Psat' %}" class="list-group-item">Power System Toolbox(Pat)</a>
-        </div>
-    </div>
 
-    <div class="col-md-9 row">
-
-
-    </div>
 </div>
 {% endblock %}
