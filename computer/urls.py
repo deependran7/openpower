@@ -4,11 +4,10 @@ from computer.views import *
 app_name = 'computer'
 
 urlpatterns = [
-    url(r'^$', index, name='Homepage'),
-    url(r'^introduction$', Matlab, name='Introduction'),
-    url(r'^matlab$', Simulink, name='MatlabBasics'),
-    url(r'^simulink$', Raspberry, name= 'Simulink'),
-    url(r'^psat$', Psat, name= 'Psat'),
+    url(r'^$', Computer.Index, name='Homepage'),
+    url(r'^matlab$', Computer.Matlab, name='Matlab'),
+    url(r'^simulink$', Computer.Simulink, name='Simulink'),
+    url(r'^psat$', Computer.Psat, name='Psat'),
 
 
 ]

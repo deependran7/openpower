@@ -8,33 +8,29 @@ from power.forms import ContactForm
 
 
 class Power(TemplateView):
-    template_name = 'Homepage.html'
 
-    def Introduction(request):
-        template = get_template('Introduction.html')
+    def Homepage(request):
+        template = get_template('Power/homepage.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))
+
+    def Notes(request):
+        template = get_template('Power/notesandsol.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))
+
+    def Tutorials(request):
+        template = get_template('Power/tutorials.html')
         context = {
 
         }
         return HttpResponse(template.render(context, request))
 
 
-
-
-class DigitalControl(TemplateView):
-
-    def Content(request):
-        template = get_template('DigitalControl/DigitalControl1.html')
-        context = {
-
-
-        }
-        return HttpResponse(template.render(context, request))
-
-
-
-
-class ComputerSol(TemplateView):
-    template_name = 'Computer/homepage.html'
 
 
 

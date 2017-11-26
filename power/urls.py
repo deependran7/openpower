@@ -4,11 +4,10 @@ from power.views import *
 app_name = 'power'
 
 urlpatterns = [
-    url(r'^$', Power.as_view(), name='Homepage'),
-    url(r'^introduction$', Power.Introduction, name='Introduction'),
+    url(r'^$', Power.Homepage, name='Homepage'),
+    url(r'^notes$', Power.Notes, name='Notes'),
+    url(r'^tutorials$', Power.Tutorials, name='Tutorials'),
 
-
-    url(r'^digitalcontrol$', DigitalControl.Content, name='DigitalControl'),
 
 
  ]

@@ -1,31 +1,37 @@
-from django.shortcuts import render
+
 from django.views.generic import TemplateView
-from django.http import HttpResponse, HttpResponseRedirect
-from django.template.loader import get_template, render_to_string
+from django.http import HttpResponse, HttpResponseRedirect, request
+from django.template.loader import get_template
 # Create your views here.
 
-def index(request):
-    template = get_template('Computer/homepage.html')
-    context = {
+class Computer(TemplateView):
 
-    }
-    return HttpResponse(template.render(context, request))
+    def Index(request):
+        template = get_template('Computer/homepage.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))
+
+    def Matlab(request):
+        template = get_template('Computer/matlab.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))
+
+    def Simulink(request):
+        template = get_template('Computer/simulink.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))
+
+    def Psat(request):
+        template = get_template('Computer/psat.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))
 
 
-
-def Matlab(request):
-    pass
-
-
-def Simulink(request):
-    pass
-
-def Raspberry(reqest):
-    pass
-
-def Psat(request):
-    template = get_template('Computer/psat.html')
-    context = {
-
-    }
-    return HttpResponse(template.render(context, request))

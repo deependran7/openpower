@@ -1,14 +1,15 @@
 .container-fluid{
-    background-color:#9dcef9 ;
+
+
 }
 
-.container-fluid.nav{
-    background-color: #57a0e0;
-}
-.jumbotron{
-    background-color:#57a0e0 ;
+
+.jumbotron.footer{
+
 }
 
-.navbar.navbar-default{
-    background-color: #57a0e0;
+
+
+a{
+    color: darkred;
 }
