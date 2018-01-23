@@ -17,6 +17,7 @@ class Power(TemplateView):
         return HttpResponse(template.render(context, request))
 
     def Notes(request):
+
         template = get_template('Power/notesandsol.html')
         context = {
 
