@@ -25,14 +25,14 @@ class Power(TemplateView):
         return HttpResponse(template.render(context, request))
 
     def Tutorials(request):
-        template = get_template('Power/tutorials.html')
+        template = get_template('Power/Tutorials/Digital control.html')
         context = {
 
         }
         return HttpResponse(template.render(context, request))
 
     def Utillisation(request):
-        template = get_template('Power/Utillisation of Electrical Energy.html')
+        template = get_template('Power/Tutorials/Utillisation of Electrical Energy.html')
         context = {
 
         }
@@ -40,9 +40,15 @@ class Power(TemplateView):
 
 
     def Material(request):
-        template = get_template('Power/Engg material.html')
+        template = get_template('Power/Tutorials/Engg material.html')
         context = {
 
         }
         return HttpResponse(template.render(context, request))
 
+    def FACTS(request):
+        template = get_template('Power/Tutorials/Facts devices.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))

@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block title %} Power Engineering {% endblock %}
+
+
+{% block body %}
+    <div class="container-fluid">
+        <div class="mx-auto">
+
+
+          <nav class="navbar navbar-default">
+            <div class="container">
+
+                <ul class="nav navbar-nav">
+                  <li><a href="{% url 'power:Homepage' %}">Introduction</a></li>
+                  <li class="active"><a href="{% url 'power:Tutorials' %}">Tutorials</a></li>
+                  <li><a href="{% url 'power:Notes' %}">Notes and Books</a></li>
+                </ul>
+            </div>
+          </nav>
+
+        </div>
+
+
+        <div class="col-md-4 row">
+            <div class="list-group">
+                  <a href="{% url 'power:Tutorials' %}" class="list-group-item list-group-item-action ">Digital Control System</a>
+                  <a href="{% url 'power:Utillisation' %}" class="list-group-item list-group-item-action">Utillisation of Electrical Energy</a>
+                    <a href="{% url 'power:Material' %}" class="list-group-item list-group-item-action">Engineering Material</a>
+                <a href="{% url 'power:Facts' %}" class="list-group-item list-group-item-action active">FACTS</a>
+            </div>
+
+        </div>
+
+        <div class="col-md-8 row">
+
+             <div class="container-fluid">
+                 <h3>Flexible AC Transmission System</h3>
+                 <article>
+                                             Electricity has now been Interconnected power system has been an inherent part of the
+                        today’s electrical generation. It has becoming more and more complex as there are
+                        multiple ways of generations, transmission and distribution, so there is great challenge
+                        for proper flow of power and ensuring the system stability. Despite the various use of
+                        classical controllers (mechanical switching devices), the implementation of high
+                        performance devices is encouraged.
+                        The modern system that has the ability of varying the power flow parameters like voltage,
+                        impedance, admittance, power angle, damping oscillation etc. in order to enhance the
+                        power flow capability is FACTS (Flexible Alternating Current Transmission).
+                        Among various FACTS devices, SVC is one of the most popular, reliable and economic
+                        controller used in modern power system. It is acquired to have very good design and
+                        performance analysis of the SVC device for its better working in the power network.
+                        Static Var Compensators are being increasingly applied in electric transmission systems
+                        to economically improve voltage control and post-disturbance recovery voltages that can
+                        lead to system instability. An SVC provides such system improvements and benefits by
+                        controlling shunt reactive power sources, both capacitive and inductive, with power
+                        electronic switching devices.
+                 </article>
+
+
+
+             </div>
+        </div>
+
+    </div>
+
+
+
+{% endblock %}

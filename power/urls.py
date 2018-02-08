@@ -10,6 +10,7 @@ urlpatterns = [
 
     url(r'^Utillisation$', Power.Utillisation, name='Utillisation'),
     url(r'^Material$', Power.Material, name='Material'),
+    url(r'^Facts$', Power.FACTS, name='Facts'),
 
 
 
