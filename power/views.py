@@ -31,7 +31,18 @@ class Power(TemplateView):
         }
         return HttpResponse(template.render(context, request))
 
+    def Utillisation(request):
+        template = get_template('Power/Utillisation of Electrical Energy.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))
 
 
+    def Material(request):
+        template = get_template('Power/Engg material.html')
+        context = {
 
+        }
+        return HttpResponse(template.render(context, request))
 

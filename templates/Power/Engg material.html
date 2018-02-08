@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %} Power Engineering {% endblock %}
+
+
+{% block body %}
+    <div class="container-fluid">
+        <div class="mx-auto">
+
+
+          <nav class="navbar navbar-default">
+            <div class="container">
+
+                <ul class="nav navbar-nav">
+                  <li><a href="{% url 'power:Homepage' %}">Introduction</a></li>
+                  <li class="active"><a href="{% url 'power:Tutorials' %}">Tutorials</a></li>
+                  <li><a href="{% url 'power:Notes' %}">Notes and Books</a></li>
+                </ul>
+            </div>
+          </nav>
+
+        </div>
+
+
+        <div class="col-md-4 row">
+            <div class="list-group">
+                  <a href="{% url 'power:Tutorials' %}" class="list-group-item list-group-item-action">Digital Control System</a>
+                  <a href="{% url 'power:Utillisation' %}" class="list-group-item list-group-item-action">Utillisation of Electrical Energy</a>
+                    <a href="{% url 'power:Material' %}" class="list-group-item list-group-item-action active">Engineering Material</a>
+            </div>
+
+        </div>
+
+        <div class="col-md-8 row">
+
+             <div class="container-fluid">
+
+
+
+
+
+             </div>
+        </div>
+
+    </div>
+
+
+
+{% endblock %}

@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="659713ee-dcd6-4ed8-ab1d-ee44b009fd78" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenPowerEngineering/static/style.css" afterPath="$PROJECT_DIR$/OpenPowerEngineering/static/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/urls.py" afterPath="$PROJECT_DIR$/power/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/power/views.py" afterPath="$PROJECT_DIR$/power/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Computer/psat.html" afterPath="$PROJECT_DIR$/templates/Computer/psat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Power/notesandsol.html" afterPath="$PROJECT_DIR$/templates/Power/notesandsol.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Power/tutorials.html" afterPath="$PROJECT_DIR$/templates/Power/tutorials.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,51 +24,114 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Computer/homepage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="matlab.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Computer/matlab.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notesandsol.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/Power/notesandsol.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="31" column="109" lean-forward="false" selection-start-line="31" selection-start-column="109" selection-end-line="31" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="psat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Computer/psat.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tutorials.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Power/tutorials.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="153">
+              <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utillisation of Electrical Energy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Power/Utillisation of Electrical Energy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="126" />
+              <folding>
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#0;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#1;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#2;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#61719#61725#1#HTML" expanded="true" />
+                <element signature="e#61833#61839#1#HTML" expanded="true" />
+                <element signature="e#61946#61952#1#HTML" expanded="true" />
+                <element signature="e#62476#62482#1#HTML" expanded="true" />
+                <element signature="e#62592#62598#1#HTML" expanded="true" />
+                <element signature="e#62720#62726#1#HTML" expanded="true" />
+                <element signature="e#63178#63184#1#HTML" expanded="true" />
+                <element signature="e#63310#63316#1#HTML" expanded="true" />
+                <element signature="e#63366#63372#1#HTML" expanded="true" />
+                <element signature="e#63586#63592#1#HTML" expanded="true" />
+                <element signature="e#63852#63858#1#HTML" expanded="true" />
+                <element signature="e#63908#63914#1#HTML" expanded="true" />
+                <element signature="e#63964#63970#1#HTML" expanded="true" />
+                <element signature="e#64101#64107#1#HTML" expanded="true" />
+                <element signature="e#64377#64383#1#HTML" expanded="true" />
+                <element signature="e#64444#64450#1#HTML" expanded="true" />
+                <element signature="e#64500#64506#1#HTML" expanded="true" />
+                <element signature="e#64556#64562#1#HTML" expanded="true" />
+                <element signature="e#64776#64782#1#HTML" expanded="true" />
+                <element signature="e#65039#65045#1#HTML" expanded="true" />
+                <element signature="e#65095#65101#1#HTML" expanded="true" />
+                <element signature="e#65151#65157#1#HTML" expanded="true" />
+                <element signature="e#65286#65292#1#HTML" expanded="true" />
+                <element signature="e#65560#65566#1#HTML" expanded="true" />
+                <element signature="e#65627#65633#1#HTML" expanded="true" />
+                <element signature="e#65683#65689#1#HTML" expanded="true" />
+                <element signature="e#65739#65745#1#HTML" expanded="true" />
+                <element signature="e#65954#65960#1#HTML" expanded="true" />
+                <element signature="e#66210#66216#1#HTML" expanded="true" />
+                <element signature="e#66266#66272#1#HTML" expanded="true" />
+                <element signature="e#66322#66328#1#HTML" expanded="true" />
+                <element signature="e#66453#66459#1#HTML" expanded="true" />
+                <element signature="e#66509#66515#1#HTML" expanded="true" />
+                <element signature="e#66712#66718#1#HTML" expanded="true" />
+                <element signature="e#66779#66785#1#HTML" expanded="true" />
+                <element signature="e#66835#66841#1#HTML" expanded="true" />
+                <element signature="e#66891#66897#1#HTML" expanded="true" />
+                <element signature="e#66947#66953#1#HTML" expanded="true" />
+                <element signature="e#67014#67020#1#HTML" expanded="true" />
+                <element signature="e#67070#67076#1#HTML" expanded="true" />
+                <element signature="e#67126#67132#1#HTML" expanded="true" />
+                <element signature="e#67182#67188#1#HTML" expanded="true" />
+                <element signature="e#67377#67383#1#HTML" expanded="true" />
+                <element signature="e#67433#67439#1#HTML" expanded="true" />
+                <element signature="e#67489#67495#1#HTML" expanded="true" />
+                <element signature="e#67545#67551#1#HTML" expanded="true" />
+                <element signature="e#67601#67607#1#HTML" expanded="true" />
+                <element signature="e#67723#67729#1#HTML" expanded="true" />
+                <element signature="e#67779#67785#1#HTML" expanded="true" />
+                <element signature="e#67836#67842#1#HTML" expanded="true" />
+                <element signature="e#67892#67898#1#HTML" expanded="true" />
+                <element signature="e#67949#67955#1#HTML" expanded="true" />
+                <element signature="e#68005#68011#1#HTML" expanded="true" />
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#4;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#SPAN#0;n#P#0;n#DIV#5;n#DIV#4;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#5;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#6;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#7;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#8;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#172080#172086#1#HTML" expanded="true" />
+                <element signature="e#172137#172143#1#HTML" expanded="true" />
+                <element signature="e#172194#172200#1#HTML" expanded="true" />
+                <element signature="e#172251#172257#1#HTML" expanded="true" />
+                <element signature="e#172308#172314#1#HTML" expanded="true" />
+                <element signature="e#173054#173060#1#HTML" expanded="true" />
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#9;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#10;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#DIV#11;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#A#0;n#P#0;n#DIV#11;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Engg material.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Power/Engg material.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="25" column="101" lean-forward="true" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,8 +140,18 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/power/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="393">
+              <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/power/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -102,8 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/Introduction.html" />
-        <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/DigitalControl/DigitalControl1.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/overview.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/blog/post_form.py" />
@@ -138,8 +209,6 @@
         <option value="$PROJECT_DIR$/templates/overview.html" />
         <option value="$PROJECT_DIR$/OpenPowerEngineering/static/js/main.js" />
         <option value="$PROJECT_DIR$/templates/Homepage.html" />
-        <option value="$PROJECT_DIR$/OpenPowerEngineering/static/style.css" />
-        <option value="$PROJECT_DIR$/power/urls.py" />
         <option value="$PROJECT_DIR$/templates/Introduction.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/Power/homepage.html" />
@@ -149,10 +218,14 @@
         <option value="$PROJECT_DIR$/templates/Computer/matlab.html" />
         <option value="$PROJECT_DIR$/templates/Computer/simulink.html" />
         <option value="$PROJECT_DIR$/templates/Computer/homepage.html" />
-        <option value="$PROJECT_DIR$/power/views.py" />
         <option value="$PROJECT_DIR$/templates/Computer/psat.html" />
-        <option value="$PROJECT_DIR$/templates/Power/tutorials.html" />
         <option value="$PROJECT_DIR$/templates/Power/notesandsol.html" />
+        <option value="$PROJECT_DIR$/OpenPowerEngineering/static/style.css" />
+        <option value="$PROJECT_DIR$/power/urls.py" />
+        <option value="$PROJECT_DIR$/power/views.py" />
+        <option value="$PROJECT_DIR$/templates/Power/Utillisation of Electrical Energy.html" />
+        <option value="$PROJECT_DIR$/templates/Power/tutorials.html" />
+        <option value="$PROJECT_DIR$/templates/Power/Engg material.html" />
       </list>
     </option>
   </component>
@@ -163,10 +236,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,7 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,24 +311,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Computer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openpower" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openpower" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="power" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -275,9 +329,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openpower" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openpower" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenPowerEngineering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,10 +639,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="676" y="0" width="697" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35976505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,8 +701,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/templatetags/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/blog/templatetags/urlify.py" />
     <entry file="file://$PROJECT_DIR$/blogcomment/admin.py" />
     <entry file="file://$PROJECT_DIR$/power/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -718,34 +788,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Introduction.html" />
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-867">
           <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/power/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Power/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -764,7 +811,7 @@
         <state relative-caret-position="461">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#1#46#0" expanded="true" />
+            <element signature="e#1#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,14 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Computer/matlab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Computer/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -793,34 +832,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/power/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Computer/psat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="714">
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Power/tutorials.html">
+    <entry file="file://$PROJECT_DIR$/templates/Computer/matlab.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="408">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Power/notesandsol.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="527">
           <caret line="31" column="109" lean-forward="false" selection-start-line="31" selection-start-column="109" selection-end-line="31" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Power/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenPowerEngineering/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Power/Utillisation of Electrical Energy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="126" />
+          <folding>
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#0;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#1;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#2;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#61719#61725#1#HTML" expanded="true" />
+            <element signature="e#61833#61839#1#HTML" expanded="true" />
+            <element signature="e#61946#61952#1#HTML" expanded="true" />
+            <element signature="e#62476#62482#1#HTML" expanded="true" />
+            <element signature="e#62592#62598#1#HTML" expanded="true" />
+            <element signature="e#62720#62726#1#HTML" expanded="true" />
+            <element signature="e#63178#63184#1#HTML" expanded="true" />
+            <element signature="e#63310#63316#1#HTML" expanded="true" />
+            <element signature="e#63366#63372#1#HTML" expanded="true" />
+            <element signature="e#63586#63592#1#HTML" expanded="true" />
+            <element signature="e#63852#63858#1#HTML" expanded="true" />
+            <element signature="e#63908#63914#1#HTML" expanded="true" />
+            <element signature="e#63964#63970#1#HTML" expanded="true" />
+            <element signature="e#64101#64107#1#HTML" expanded="true" />
+            <element signature="e#64377#64383#1#HTML" expanded="true" />
+            <element signature="e#64444#64450#1#HTML" expanded="true" />
+            <element signature="e#64500#64506#1#HTML" expanded="true" />
+            <element signature="e#64556#64562#1#HTML" expanded="true" />
+            <element signature="e#64776#64782#1#HTML" expanded="true" />
+            <element signature="e#65039#65045#1#HTML" expanded="true" />
+            <element signature="e#65095#65101#1#HTML" expanded="true" />
+            <element signature="e#65151#65157#1#HTML" expanded="true" />
+            <element signature="e#65286#65292#1#HTML" expanded="true" />
+            <element signature="e#65560#65566#1#HTML" expanded="true" />
+            <element signature="e#65627#65633#1#HTML" expanded="true" />
+            <element signature="e#65683#65689#1#HTML" expanded="true" />
+            <element signature="e#65739#65745#1#HTML" expanded="true" />
+            <element signature="e#65954#65960#1#HTML" expanded="true" />
+            <element signature="e#66210#66216#1#HTML" expanded="true" />
+            <element signature="e#66266#66272#1#HTML" expanded="true" />
+            <element signature="e#66322#66328#1#HTML" expanded="true" />
+            <element signature="e#66453#66459#1#HTML" expanded="true" />
+            <element signature="e#66509#66515#1#HTML" expanded="true" />
+            <element signature="e#66712#66718#1#HTML" expanded="true" />
+            <element signature="e#66779#66785#1#HTML" expanded="true" />
+            <element signature="e#66835#66841#1#HTML" expanded="true" />
+            <element signature="e#66891#66897#1#HTML" expanded="true" />
+            <element signature="e#66947#66953#1#HTML" expanded="true" />
+            <element signature="e#67014#67020#1#HTML" expanded="true" />
+            <element signature="e#67070#67076#1#HTML" expanded="true" />
+            <element signature="e#67126#67132#1#HTML" expanded="true" />
+            <element signature="e#67182#67188#1#HTML" expanded="true" />
+            <element signature="e#67377#67383#1#HTML" expanded="true" />
+            <element signature="e#67433#67439#1#HTML" expanded="true" />
+            <element signature="e#67489#67495#1#HTML" expanded="true" />
+            <element signature="e#67545#67551#1#HTML" expanded="true" />
+            <element signature="e#67601#67607#1#HTML" expanded="true" />
+            <element signature="e#67723#67729#1#HTML" expanded="true" />
+            <element signature="e#67779#67785#1#HTML" expanded="true" />
+            <element signature="e#67836#67842#1#HTML" expanded="true" />
+            <element signature="e#67892#67898#1#HTML" expanded="true" />
+            <element signature="e#67949#67955#1#HTML" expanded="true" />
+            <element signature="e#68005#68011#1#HTML" expanded="true" />
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#4;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#SPAN#0;n#P#0;n#DIV#5;n#DIV#4;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#5;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#6;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#7;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#8;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#172080#172086#1#HTML" expanded="true" />
+            <element signature="e#172137#172143#1#HTML" expanded="true" />
+            <element signature="e#172194#172200#1#HTML" expanded="true" />
+            <element signature="e#172251#172257#1#HTML" expanded="true" />
+            <element signature="e#172308#172314#1#HTML" expanded="true" />
+            <element signature="e#173054#173060#1#HTML" expanded="true" />
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#9;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#src#0;n#IMG#0;n#DIV#0;n#DIV#10;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#DIV#11;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#A#0;n#P#0;n#DIV#11;n#BODY#0;n#HTML#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Power/tutorials.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="128" lean-forward="false" selection-start-line="27" selection-start-column="128" selection-end-line="27" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Power/Engg material.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="25" column="101" lean-forward="true" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
           <folding />
         </state>
       </provider>

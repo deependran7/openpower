@@ -3,38 +3,116 @@
 
 
 {% block body %}
-     <div class="container-fluid">
- <div class="mx-auto">
+    <div class="container-fluid">
+        <div class="mx-auto">
 
 
           <nav class="navbar navbar-default">
-  <div class="container">
+            <div class="container">
 
-    <ul class="nav navbar-nav">
-      <li><a href="{% url 'power:Homepage' %}">Introduction</a></li>
-      <li class="active"><a href="{% url 'power:Tutorials' %}">Tutorials</a></li>
-      <li><a href="{% url 'power:Notes' %}">Notes and Books</a></li>
-    </ul>
-  </div>
-</nav>
+                <ul class="nav navbar-nav">
+                  <li><a href="{% url 'power:Homepage' %}">Introduction</a></li>
+                  <li class="active"><a href="{% url 'power:Tutorials' %}">Tutorials</a></li>
+                  <li><a href="{% url 'power:Notes' %}">Notes and Books</a></li>
+                </ul>
+            </div>
+          </nav>
 
- </div>
-    <div class="col-md-9 row">
-<p>
-    tutorial are here
-         <div class="container-fluid">
+        </div>
 
 
+        <div class="col-md-4 row">
+            <div class="list-group">
+                  <a href="{% url 'power:Tutorials' %}" class="list-group-item list-group-item-action active">Digital Control System</a>
+                  <a href="{% url 'power:Utillisation' %}" class="list-group-item list-group-item-action">Utillisation of Electrical Energy</a>
+                    <a href="{% url 'power:Material' %}" class="list-group-item list-group-item-action">Engineering Material</a>
+            </div>
 
-    <div class="col-md-3 ">
-        <div class="panel panel-default">
-        <div class="panel-heading">Instrumentation II</div>
-        <div class="panel-body">For the students of electrical, electronics and computer engineeering</div>
-        <div class="panel-footer"><a href="">Download Here</a></div>
+        </div>
+
+        <div class="col-md-8 row">
+
+             <div class="container-fluid">
+                    <h2>1. Introduction</h2>
+        <article>
+        <h3>1.1 Introduction to discrete time control system.</h3>
+            <p>
+                Discrete tim control systems ar control systems in which one of more variable can change only ate discrete interval of time.
+                These instants, are denoted by kT or $t_k$, may specify the times at which some physical measurements is performed of at which
+                the memory of a digital computer is read out.
+            </p>
+            <p>
+                The signal used in discrete time control system are in teh form of sampled data or in digital form.
+            </p>
+            <p>
+                The discrete time system uses discrete time signals which have the amplitude for only a distince points in time but it can assume continouous
+                range of values of amplitudes. If the amplitude takes continuous values for distint points in time, it is called sampled data signal while, if
+                amplitude takes only quantized values, then it is called digital  signal.
+            </p>
+            <p>
+                Discrete time systems can be described by difference equations agter the appropriate descretisation of continuous time signal. Deiscretisation
+                basically mean as the conversion of S-domain to Z-domain.
+            </p>
+        </article>
+
+        <article>
+            <h3>1.2 Signal Sampling, quanitizing and coding.</h3>
+            <p>
+                A sequence ofvalues at discrete  time points is obtained through the sampling of conntinous time signals. Samplin, in other words, also called
+                descretisation. Whenever a control system involves a digital controlled, sampking is needed. For example, for a solar tracking device, a peroidic sampling
+                of intensity of light along the panel is taken and appropriate contrl process is done.
+            </p>
+
+            <p>
+                Since, sampled data may contain continuous range of values and it is no desirable for a digital computer, So quantinaisaion is done which converts the
+                sampled analog amplitude to a digital amplitude(represented by binary numbers). this digital signal is processed by digital computer. the process
+                of representing a continuous or analg signal by a number of discrete states is called amplitude quanitsation.
+            </p>
+            <p>
+                Coding is the conversion of digital signal into set of binary numbers. The sample and hold circuit and analog to digital converter converts
+                continuous time signal into a sequence of numerically coded binary words. This process is called as coding or encoding. Similaryly, the
+                digital to analog conversion process is called decoding.
+            </p>
+        </article>
+
+        <article>
+            <h3>1.3 Data acquistion, conversion and distrubution system.</h3>
+            <p>
+                These  are the integral part of digital control system. The basic block digram of data acquistion system is shown below:
+
+            </p>
+            <p>
+                In data acquistion system, the input to the system is a physical variable, such as, position, velocity, accleration, temperature etc.
+                Such physical variable is first converted into an electrical signal by using suitable trancuducer. The electrical signal then fed to
+                amplifier, which amplified the voltage or current output of the signla and buffers the signal. The low pass filter after amplifier,
+                attnuates the high frequency signal components, such as noise signals.
+            </p>
+            <p>
+                The use of individual A/D converters of each channer in data acquistion system is quite expensive. So, an analog multiplexer is used
+                which performs the function of time sharing on A/D convertes amoung many analog channel.
+            </p>
+            <p>
+                A sampler converts te analog signal output from multiplexer into a train of amplitude modulated pulses and hold circuit holds the value of ampled
+                pulse signal over time. S/H circuit is an intergral part of A/D converter to produce a number that accuretly represent the input signal at sampling innstant.
+                Specific digital valued is assainged to certain level by the A/D converter to the output of S/H  and hold circuit.
+            </p>
+            <p>The block diagram of data distrubution system is shown below:</p>
+            <p>
+                The digital output of digital computer is stored in a memory, i.e. in register. It could be temporary or a permanent storage. the dat from memory
+                is fed to digital multiplexer which is synchronized with the input sampling signla that seperates the composite digital output data from
+                controller into original channels. The digital to analog converter and hold both work simultaenously ot convet the digital input ot analog output.
+                Finally, the analog controlled output is fed to individual actuator at different locations.
+            </p>
+        </article>
+
+
+
+
+             </div>
         </div>
 
     </div>
 
-    </div>
-</div>
+
+
 {% endblock %}
