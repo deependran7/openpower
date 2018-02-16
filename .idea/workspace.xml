@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659713ee-dcd6-4ed8-ab1d-ee44b009fd78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Computer/simulink.html" afterPath="$PROJECT_DIR$/templates/Computer/simulink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Power/notesandsol.html" afterPath="$PROJECT_DIR$/templates/Power/notesandsol.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,17 +30,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notesandsol.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="notesandsol.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/Power/notesandsol.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="62" column="148" lean-forward="false" selection-start-line="62" selection-start-column="148" selection-end-line="62" selection-end-column="148" />
+            <state relative-caret-position="68">
+              <caret line="26" column="156" lean-forward="false" selection-start-line="26" selection-start-column="156" selection-end-line="26" selection-end-column="156" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simulink.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simulink.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Computer/simulink.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -139,8 +137,8 @@
         <option value="$PROJECT_DIR$/templates/Power/Tutorials/Engg material.html" />
         <option value="$PROJECT_DIR$/templates/Power/Tutorials/Utillisation of Electrical Energy.html" />
         <option value="$PROJECT_DIR$/templates/Power/Tutorials/Digital control.html" />
-        <option value="$PROJECT_DIR$/templates/Power/notesandsol.html" />
         <option value="$PROJECT_DIR$/templates/Computer/simulink.html" />
+        <option value="$PROJECT_DIR$/templates/Power/notesandsol.html" />
       </list>
     </option>
   </component>
@@ -818,18 +816,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Power/notesandsol.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="62" column="148" lean-forward="false" selection-start-line="62" selection-start-column="148" selection-end-line="62" selection-end-column="148" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Computer/simulink.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="35" column="164" lean-forward="false" selection-start-line="35" selection-start-column="164" selection-end-line="35" selection-end-column="164" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Power/notesandsol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="26" column="156" lean-forward="false" selection-start-line="26" selection-start-column="156" selection-end-line="26" selection-end-column="156" />
           <folding />
         </state>
       </provider>
