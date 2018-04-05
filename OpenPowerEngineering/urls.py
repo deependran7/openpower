@@ -19,6 +19,7 @@ from django.contrib import admin
 
 import computer.urls
 import power.urls
+import notes.urls
 
 from django.conf.urls.static import static
 
@@ -27,6 +28,9 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include(power.urls)),
     url(r'^computing/',include(computer.urls)),
+    url(r'^notes/', include(notes.urls)),
+
+
 
 ]
 

@@ -16,13 +16,7 @@ class Power(TemplateView):
         }
         return HttpResponse(template.render(context, request))
 
-    def Notes(request):
 
-        template = get_template('Power/notesandsol.html')
-        context = {
-
-        }
-        return HttpResponse(template.render(context, request))
 
     def Tutorials(request):
         template = get_template('Power/Tutorials/Digital control.html')

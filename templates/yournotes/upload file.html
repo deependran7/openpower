@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %} Power Engineering {% endblock %}
+{% load crispy_forms_tags %}
+
+{% block body %}
+     <div class="container-fluid">
+ <div class="mx-auto">
+
+
+          <nav class="navbar navbar-default">
+  <div class="container">
+
+    <ul class="nav navbar-nav">
+      <li><a href="{% url 'power:Homepage' %}">Introduction</a></li>
+      <li><a href="{% url 'power:Tutorials' %}">Tutorials</a></li>
+     <li><a href="{% url 'notes:Notes' %}">Notes and Books</a></li>
+
+        <li class="active"><a href="{% url 'notes:UploadNotes' %}">Upload Notes</a></li>
+    </ul>
+  </div>
+</nav>
+
+ </div>
+    <div class="col-md-6 row">
+
+
+        <form class="col-md-9" method="POST" action="">{% csrf_token %}
+               {{ form|crispy }}
+
+        <input type="submit" value="Upload Note" class="btn btn-default"/>
+        </form>
+
+
+
+
+    </div>
+
+     <div class="col-md-6 row">
+        Here is the tutorial to upload your file.
+     </div>
+</div>
+{% endblock %}

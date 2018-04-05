@@ -5,7 +5,7 @@ app_name = 'power'
 
 urlpatterns = [
     url(r'^$', Power.Homepage, name='Homepage'),
-    url(r'^notes$', Power.Notes, name='Notes'),
+
     url(r'^tutorials$', Power.Tutorials, name='Tutorials'),
 
     url(r'^Utillisation$', Power.Utillisation, name='Utillisation'),

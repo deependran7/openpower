@@ -4,7 +4,7 @@
 
 {% block body %}
     <div class="container-fluid">
-        <div class="mx-auto">
+        <div class="mx-auto"><li><a href="{% url 'notes:Notes' %}">Notes and Books</a></li>
 
 
           <nav class="navbar navbar-default">
@@ -13,7 +13,7 @@
                 <ul class="nav navbar-nav">
                   <li><a href="{% url 'power:Homepage' %}">Introduction</a></li>
                   <li class="active"><a href="{% url 'power:Tutorials' %}">Tutorials</a></li>
-                  <li><a href="{% url 'power:Notes' %}">Notes and Books</a></li>
+
                 </ul>
             </div>
           </nav>
