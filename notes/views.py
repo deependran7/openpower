@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from .models import UploadFile
 
@@ -12,6 +12,7 @@ def UploadNotes(request):
     if form.is_valid():
         instance = form.save(commit=False)
         instance.save()
+        return HttpResponseRedirect('/notes/')
 
     template = get_template('yournotes/upload file.html')
     context = {
@@ -26,6 +27,7 @@ def Notes(request):
 
     template = get_template('yournotes/notesandsol.html')
     context = {
-            "noteslist":queryset
+            "noteslist":queryset,
+
     }
     return HttpResponse(template.render(context, request))

@@ -31,9 +31,10 @@
                     <div class="panel panel-default">
                     <div class="panel-heading">{{ note.filename }}</div>
                         {{ note.name }}<hr>
-                    {{ note.institution }} <hr>{{ note.email }}
+                    {{ note.institution }} <hr>
 
-                    <div class="panel-footer"><a href="{{ note.filelink }}">Download Here</a></div>
+
+                    <a href="{{ note.filelink }}" class="badge badge-secondary">Download Here</a>
                     </div>
 
                 </div>
