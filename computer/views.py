@@ -34,4 +34,9 @@ class Computer(TemplateView):
         }
         return HttpResponse(template.render(context, request))
 
+    def PsatInstall(request):
+        template = get_template('Computer/psat/install.html')
+        context = {
 
+        }
+        return HttpResponse(template.render(context, request))

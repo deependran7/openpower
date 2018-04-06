@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% block title %} Computer Solution {% endblock %}
+
+
+{% block body %}
+
+    <div class="container-fluid">
+ <div class="mx-auto">
+
+
+          <nav class="navbar navbar-default">
+  <div class="container">
+
+   <ul class="nav navbar-nav">
+      <li><a href="{% url 'computer:Homepage' %}">Introduction</a></li>
+      <li><a href="{% url 'computer:Matlab' %}">Matlab Basics</a></li>
+      <li><a href="{% url 'computer:Simulink' %}">Simulink</a></li>
+      <li  class="active"><a href="{% url 'computer:Psat' %}">Power System Toolbox</a></li>
+    </ul>
+  </div>
+</nav>
+
+ </div>
+    <div class="col-md-9 row">
+
+
+        <center><h3>Installing PSAT in MATLAB as Toolbox</h3></center>
+
+
+         <div class="container-fluid">
+
+
+
+               <h5> Here I will show step by step process to install psat in matlab.</h5>
+
+               <b>Step I:</b> In this step you should find psat toolbox software online. You can search in google as Psat toolbox in matlab or you
+               can go directly thorough this link <a href="http://faraday1.ucd.ie/psat.html">link</a>. If you do not found the site then you can download directly
+               it from this <a href="http://faraday1.ucd.ie/archive/psat/psat-2.1.10-mat.zip">link</a>. After you download it confirm it in downloaded folder or any
+               other default.
+                <br> <br><br>
+
+             <img src="https://image.ibb.co/d9QU7H/Screenshot_8.png" class="img-fluid" alt="Screenshot 8"  height="400" width="800" /> <br> <br>
+
+               <b> Step II:</b> The downloaded file is in compressed format. Now you need to uncompress it and get the original psat folder. You can do
+             it either using windows built in uncompresser or other softwares. After you incompress it you neet to copy it in to the location of matalab
+             installation. Go to matlab installation location (mostly in c drive) and go to matlab then toolbox. Now here you will put the folder by pasting
+             or dragging.
+             <br><br>
+
+             <img src="https://image.ibb.co/hVcbnH/Screenshot_9.png" class="img-fluid" alt="Screenshot 8"  height="400" width="800" /> <br> <br>
+
+             <b>Step III:</b> Now you have the toobox installed in the root folder. The next step is to link the toolbox in matlab during it operation. For this
+             you have to open matlab. It takes time as you know. When it fully opens, go to upper bar and find add folder path. Then you have to select the folder path
+             to this. When you select the folder the save it.
+
+             <br><br>
+
+             <img src="https://image.ibb.co/mDkU7H/Screenshot_10.png" class="img-fluid" alt="Screenshot 8"  height="400" width="800" /> <br> <br>
+
+             <b>Step IV:</b> This is the final step and here you are going to open psat for simulation of power network for different purposes. For this you just
+             have to enter command <b>Psat</b> in the command window of the matlab then window of psat will pop up.
+
+             <br><br>
+
+             <img src="https://image.ibb.co/chwxux/Screenshot_13.png" class="img-fluid" alt="Screenshot 8"  height="400" width="800" /> <br> <br>
+
+
+             Enjoy! And Thank you.
+
+             <br><br><br><br><br>
+
+             <b>You can watch youtube video of this tutorial in this <a href="https://youtu.be/eSUvXJtQSXQ">link</a></b>.
+
+
+             <br><br><br><br><br>
+
+
+
+
+
+
+   </div>
+
+    </div>
+</div>
+
+
+
+
+{% endblock %}

@@ -9,5 +9,9 @@ urlpatterns = [
     url(r'^simulink$', Computer.Simulink, name='Simulink'),
     url(r'^psat$', Computer.Psat, name='Psat'),
 
+    url(r'^psatinstall$', Computer.PsatInstall, name='PsatInstall'),
+
+
+
 
 ]
