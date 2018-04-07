@@ -14,4 +14,8 @@ urlpatterns = [
 
     url(r'^psatintro$', Computer.PsatIntro, name='PsatIntro'),
 
+    url(r'^psatloadflow$', Computer.PsatLoadFlow, name='PsatLoadFlow'),
+    url(r'^psatexample$', Computer.PsatExample, name='PsatExample'),
+    url(r'^psatgraph$', Computer.PsatGraph, name='PsatGraph'),
+
 ]

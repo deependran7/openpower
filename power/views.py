@@ -26,7 +26,7 @@ class Power(TemplateView):
         return HttpResponse(template.render(context, request))
 
     def Utillisation(request):
-        template = get_template('Power/Tutorials/Utillisation of Electrical Energy.html')
+        template = get_template('Power/Tutorials/Electric Traction.html')
         context = {
 
         }
