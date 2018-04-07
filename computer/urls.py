@@ -10,8 +10,8 @@ urlpatterns = [
     url(r'^psat$', Computer.Psat, name='Psat'),
 
     url(r'^psatinstall$', Computer.PsatInstall, name='PsatInstall'),
+    url(r'^psatplot$', Computer.PsatPlot, name='PsatPlot'),
 
-
-
+    url(r'^psatintro$', Computer.PsatIntro, name='PsatIntro'),
 
 ]

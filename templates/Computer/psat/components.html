@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+{% block title %} Computer Solution {% endblock %}
+
+
+{% block body %}
+
+    <div class="container-fluid">
+ <div class="mx-auto">
+
+
+          <nav class="navbar navbar-default">
+  <div class="container">
+
+   <ul class="nav navbar-nav">
+      <li><a href="{% url 'computer:Homepage' %}">Introduction</a></li>
+      <li><a href="{% url 'computer:Matlab' %}">Matlab Basics</a></li>
+      <li><a href="{% url 'computer:Simulink' %}">Simulink</a></li>
+      <li  class="active"><a href="{% url 'computer:Psat' %}">Power System Toolbox</a></li>
+    </ul>
+  </div>
+</nav>
+
+ </div>
+    <div class="col-md-9 row">
+
+
+        <center><h3>Introduction Simulink components in PSAT</h3></center>
+
+
+         <div class="container-fluid">
+
+
+
+               <h5> In order to simulate the given system you have to model the system in simulink file.
+                    (here, I assume you are familier with matlab simulink, if you are not familier about
+                    it you can go to tutorial of simulink in this <a href="{% url 'computer:Simulink' %}">link</a>.)
+                   But, the simulink library provided by
+                    in built matlab do not work here. The psat provides it own in built simulink libraty
+                    to model the system.
+                    </h5>
+
+             <p>
+                In order to model the system to make it run in past, you have to go simulink libraty of
+                of psat and open a new simulink model file. And then you will drag and drop
+                the functional blocks in the model file and connnect them.
+
+
+             </p>
+                    Here  I will introduce different basic componets thast are used in psat.
+
+             <p>First of all, to obtain the library click in the library option of psat as indicated
+                in figure. Then a new window will pop up showing the libray of simulink libraty of
+                    psat.
+
+                 <br><br><br><img src="https://image.ibb.co/nbgXUx/frontpage.jpg" class="img-fluid" alt="Screenshot 8"  height="400" width="800" /> <br> <br>
+
+             </p>
+
+             <p>let us disuss individual block and their use in psat.
+
+                The first one is connections.
+                 <br><br><br><img src="https://image.ibb.co/gvQsUx/connection.jpg" class="img-fluid" alt="Screenshot 8"  height="400" width="800" /> <br> <br>
+                 In this connection library you will find the following
+                block. They are:
+                </p>
+
+
+             <ul class="list-group">
+                      <li class="list-group-item"><b> Bus :</b>This is the normal bus that is used in power system network to connect load
+                                                generators or any other compensation devices. You can manually change the number
+                                                of inputs and ouputs in this bus to connect the loads or generators.
+                      </li>
+
+                         <li class="list-group-item"><b> Link :</b>This just provides the facility of node to get input and dividing the input.
+
+                      </li>
+
+                 <li class="list-group-item"><b> Goto bus :</b>This is very flexible component. When the network is very large and
+complicted then in order to connect one bus to another it behaves as a wirelless media.
+we set a ouptut in this go to bus and the signal is receive by from bus.
+
+
+                      </li>
+
+                 <li class="list-group-item"><b> Plot Variable List :</b>This is very useful to obtain the parameter in the network.
+If all the parameters are known, it will be very easy to obtain the plotting relations while
+plotting. The plotting section will be next, you can go there know how to plot
+in matlab psat.
+
+             </ul>
+
+
+
+
+               <br>
+               <br>
+             The second one is power flow components.
+             <br><br><br><img src="https://image.ibb.co/f7ZVGc/powerflowcomponent.jpg" class="img-fluid" alt="Screenshot 8"  height="400" width="800" /> <br> <br>
+             If you are familier with load flow studies, then these componets are quite much familer
+with you. But still as review, I am going to explain the short description of these components. They are discussed below:
+             <ul class="list-group">
+                      <li class="list-group-item"><b> Slack Bus :</b>This is the bus where, amoung th four paramter of bus, voltage and
+angle of the bus is fixed as 1 pu and 0 degree. Theoritically, any amount of active
+or reactive power can be generated of absorbe by this bus. For the solution of load
+flow any one of the bus should be slack other wise the load flow solution will not
+be successful.
+                      </li>
+
+                         <li class="list-group-item"><b> PV Generator:</b>This is also called voltage controlled bus or generator bus. In this
+bus active power and voltage of the bus is fixed. Basically, these bus are power plant
+bus. Voltage is 1 pu and the active power is fixed with some generating capacity.
+
+
+                      </li>
+
+                 <li class="list-group-item"><b> PQ Generator :</b> This is also a power plant bus but this bus can supply both active
+and reactive power in the bus. You can manually specify the value of active and reactive
+power in this bus.
+
+
+                      </li>
+
+                 <li class="list-group-item"><b> Constant PQ load:</b>This is load bus. The voltage and phase angle can be different
+in this bus. Effective compensation for load voltage control is placed here.
+
+
+                      </li>
+
+
+
+                 <li class="list-group-item"><b> Fixed V theta:</b>This is also the slack bus but you can manually put the value of voltage and angle.
+
+
+                      </li>
+                 <li class="list-group-item"><b>Transformer:</b> This is the normal step up or step down transformer. You can manually put the
+                 voltage level and ratio and mva capacity to make it step or step down transformer.</li>
+
+                 <li class="list-group-item"><b>Transmission line:</b> This represents the power network tranmission line. This is modelled as
+                 pi transmission line. </li>
+
+                 <li class="list-group-item"><b>Static Condenser:</b> This is generally connceted to load bus to provide the necessary reactive powr
+                 in the bus to maintain it voltage. </li>
+
+
+
+
+             </ul>
+
+               <br>
+
+
+             Enjoy! And Thank you.
+
+             <br><br><br><br><br>
+
+             <b>You can watch youtube video of this tutorial in this <a href="https://youtu.be/eSUvXJtQSXQ">link</a></b>.
+
+
+             <br><br><br><br><br>
+
+
+
+
+
+
+   </div>
+
+    </div>
+</div>
+
+
+
+
+{% endblock %}

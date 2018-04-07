@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% block title %} Computer Solution {% endblock %}
+
+
+{% block body %}
+
+    <div class="container-fluid">
+ <div class="mx-auto">
+
+
+          <nav class="navbar navbar-default">
+  <div class="container">
+
+   <ul class="nav navbar-nav">
+      <li><a href="{% url 'computer:Homepage' %}">Introduction</a></li>
+      <li><a href="{% url 'computer:Matlab' %}">Matlab Basics</a></li>
+      <li><a href="{% url 'computer:Simulink' %}">Simulink</a></li>
+      <li  class="active"><a href="{% url 'computer:Psat' %}">Power System Toolbox</a></li>
+    </ul>
+  </div>
+</nav>
+
+ </div>
+    <div class="col-md-9 row">
+
+
+        <center><h3>Plotting in PSAT  in MATLAB</h3></center>
+
+
+         <div class="container-fluid">
+
+
+
+               <h5> Basically, MATLAB provides a unique easy way to visulallise the data. As being an extionsion,
+                   Psat also provides the way of plotting the variable graphically. What the more interestion thing is ability of psat to
+                   plot the variation of a variable with respect to any other network parameter variable. You can manually choose the variables form
+                   the list of the solution it provided.
+                   Here I will show step by step process to plot the variable in psat in matlab.</h5>
+
+
+
+
+                <br> <br>
+
+
+             Enjoy! And Thank you.
+
+             <br><br><br><br><br>
+
+             <b>You can watch youtube video of this tutorial in this <a href="https://youtu.be/eSUvXJtQSXQ">link</a></b>.
+
+
+             <br><br><br><br><br>
+
+
+
+
+
+
+   </div>
+
+    </div>
+</div>
+
+
+
+
+{% endblock %}

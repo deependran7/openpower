@@ -40,3 +40,17 @@ class Computer(TemplateView):
 
         }
         return HttpResponse(template.render(context, request))
+
+    def PsatPlot(request):
+        template = get_template('Computer/psat/plotting.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))
+
+    def PsatIntro(request):
+        template = get_template('Computer/psat/components.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))

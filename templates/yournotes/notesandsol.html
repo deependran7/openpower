@@ -29,9 +29,8 @@
 
            <div class="col-md-3 ">
                     <div class="panel panel-default">
-                    <div class="panel-heading">{{ note.filename }}</div>
-                        {{ note.name }}<hr>
-                    {{ note.institution }} <hr>
+                    <div class="panel-heading"><b  style="color: grey; font-size: 18px">{{ note.filename }}</b></div>
+                      <em>Uploaded by</em>  <strong style="color: grey; font-size: 18px">{{ note.name }}</strong>from <mark>{{ note.institution }}</mark>
 
 
                     <a href="{{ note.filelink }}" class="badge badge-secondary">Download Here</a>
