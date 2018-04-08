@@ -4,22 +4,41 @@
 
 {% block body %}
  <div class="container-fluid">
- <div class="mx-auto">
+    <div class="mx-auto">
 
 
           <nav class="navbar navbar navbar-default">
-  <div class="container">
+            <div class="container">
 
     <ul class="nav navbar-nav">
-      <li><a href="{% url 'computer:Homepage' %}">Introduction</a></li>
-      <li class="active"><a href="{% url 'computer:Matlab' %}">Matlab Basics</a></li>
-      <li><a href="{% url 'computer:Simulink' %}">Simulink</a></li>
-      <li><a href="{% url 'computer:Psat' %}">Power System Toolbox</a></li>
+      <ul class="nav navbar-nav">
+                    <li><a href="{% url 'computer:Homepage' %}"><b>Introduction</b></a></li>
+                    <li class="active"><a href="{% url 'computer:Matlab' %}"><b>MATLAB</b></a></li>
+                    <li><a href="{% url 'computer:Simulink' %}"><b>SIMULINK</b></a></li>
+                    <li><a href="{% url 'computer:Psat' %}"><b>Power System Toolbox</b></a></li>
+                </ul>
     </ul>
   </div>
 </nav>
 
- </div>
+    <div class="container">
+
+        <div class="article">
+            MATLAB has been developed by matheworks inc. It is a powerful tool/software used for scientific neumerical computation.
+            MATLAB stand for Matrix Laboratory. It provides very powerful graphics facility to visuallise the data. In this software you
+            play with matrices. You will use operatios with matrices.
+
+            <hr>
+            <b>Let's start learning.</b> <b>Click <a href="{% url 'computer:MatInverse' %}">HERE</a> to go.</b>
+            <br><br>
+            <hr>
+
+
+        </div>
+
+
+    </div>
+    </div>
 
 </div>
 {% endblock %}

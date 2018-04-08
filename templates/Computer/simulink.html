@@ -4,7 +4,7 @@
 
 {% block body %}
 
-    <div class="container-fluid">
+    <div class="container">
  <div class="mx-auto">
 
 
@@ -12,16 +12,18 @@
   <div class="container">
 
     <ul class="nav navbar-nav">
-      <li><a href="{% url 'computer:Homepage' %}">Introduction</a></li>
-      <li><a href="{% url 'computer:Matlab' %}">Matlab Basics</a></li>
-      <li class="active"><a href="{% url 'computer:Simulink' %}">Simulink</a></li>
-      <li ><a href="{% url 'computer:Psat' %}">Power System Toolbox</a></li>
+      <li><a href="{% url 'computer:Homepage' %}"><b>Introduction</b></a></li>
+                    <li><a href="{% url 'computer:Matlab' %}"><b>MATLAB</b></a></li>
+                    <li class="active"><a href="{% url 'computer:Simulink' %}"><b>SIMULINK</b></a></li>
+                    <li><a href="{% url 'computer:Psat' %}"><b>Power System Toolbox</b></a></li>
     </ul>
   </div>
 </nav>
 
  </div>
-    <div class="col-md-9 row">
+    <div class="container">
+
+        <div class="article">
 <p>
    Simulink, developed by MathWorks, is a graphical programming environment for modeling, simulating
     and analyzing multidomain dynamical systems. Its primary interface is a graphical block diagramming
@@ -30,13 +32,14 @@
     and digital signal processing for multidomain simulation and Model-Based Design.
 </p>
 
-        <article>
-            <h3>Here you can see the use of matlab simulink for simulating  three phase inverter.</h3>
-            <p> Three Phase Inverter in Matlab Simulink</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7UVQTil_gC0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </article>
+
+                <hr>
+
+        <b>Let's start learning using this <a href="{% url 'computer:SimRC' %}"><B>LINK</B></a></b>
 
 
+            <br><br><br><br>
+            </div>
     </div>
 </div>
 

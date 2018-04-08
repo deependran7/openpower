@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% block title %} Computer Solution {% endblock %}
+
+
+{% block body %}
+ <div class="container-fluid">
+    <div class="mx-auto">
+
+
+          <nav class="navbar navbar navbar-default">
+            <div class="container">
+
+    <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav">
+                    <li><a href="{% url 'computer:Homepage' %}"><b>Introduction</b></a></li>
+                    <li class="active"><a href="{% url 'computer:Matlab' %}"><b>MATLAB</b></a></li>
+                    <li><a href="{% url 'computer:Simulink' %}"><b>SIMULINK</b></a></li>
+                    <li><a href="{% url 'computer:Psat' %}"><b>Power System Toolbox</b></a></li>
+                </ul>
+    </ul>
+  </div>
+</nav>
+
+    <div class="container">
+
+
+
+        <div class="col-md-4 row">
+            <div class="list-group">
+                <a href="{% url 'computer:MatInverse' %}" class="list-group-item list-group-item-action active">Complex Matrix and Operations</a>
+            </div>
+
+        </div>
+
+        <div class="col-md-8 row">
+
+             <div class="container-fluid">
+                 <h3>Complex Matrix and Operations</h3>
+
+                 <hr>
+
+                 <article>
+                     <div class="article">
+                         While studying load flow analysis or fault analysis or stability analysis, we come up with network huge
+                         admittance and impedance matrices. These matrices has huge importance. And the operation in thes matrices has
+                         to be done before application. It could be transpostion, Inversion, adjoint or determinants. So, let us take
+                         a complex matrix and get its inverse in matlab. <br> <br>
+
+                           A =  $\begin{pmatrix} 1+2i & 5+ 4i & 3+4i   \\  3+4i & 2+5i & 7+6i \\ 1+3i & 2+4i & 3+8i \end{pmatrix}$
+
+                         <br>
+                         The general mathematical formula to calulate <b>inverse of matrix</b> is $ A^{-1} = \frac{adj[A]}{Det.A}$ <br>
+
+                         But we can do using a single command in matlab using <b>inv(A)</b>.
+                         So, you have to set a variable A in the script first and then assign it with the value of given matrix
+                         each rows are seperated by ; and each column is seperated by space.
+
+                         <br><br>
+                         For the <b>transposition of matrix</b>, you have to enter the command <b>transpose(A)</b>
+
+                         <br><br>
+
+                         For the <b>imaginery part</b> of certain element, you have to do <b>imag(A)</b>
+                         <br><br>
+
+                         For <b>real part</b> of the matrix, you have to do <b>real(A).</b>
+
+                         <br><br> For evaluating<b>complex conjugate</b>, you need to enter the command <b>conj(A).</b>
+
+                         <br><br>
+                         For <b>selecting specific element</b> of the matrix, you need to do A(i, j)
+
+                         <hr>
+
+                         The script file for this is in this <a href="https://drive.google.com/open?id=1YOOAdkFfNJjfoTfoCRfcQKgTDdQ8xGgo"><b>Link</b></a>. You can download and run it to your matlab to obtain the result.
+
+
+                         <br><br><br><br>
+                     </div>
+
+
+
+                 </article>
+
+
+             </div>
+
+        </div>
+
+    </div>
+    </div>
+
+</div>
+{% endblock %}

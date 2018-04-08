@@ -75,3 +75,24 @@ class Computer(TemplateView):
 
         }
         return HttpResponse(template.render(context, request))
+
+
+
+class Matlab(TemplateView):
+
+    def InverseMatrix(request):
+        template = get_template('Computer/matlab/inversecomplexmatrix.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))
+
+
+class Simulink(TemplateView):
+
+    def SeriesRC(request):
+        template = get_template('Computer/simulink/responseRC.html')
+        context = {
+
+        }
+        return HttpResponse(template.render(context, request))

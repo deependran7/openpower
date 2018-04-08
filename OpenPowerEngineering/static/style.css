@@ -29,3 +29,8 @@ a{
 .article{
     text-align: justify;
 }
+
+.img-fluid{
+    width: 600px;
+    height:300px ;
+}

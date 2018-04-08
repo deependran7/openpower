@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% block title %} Computer Solution {% endblock %}
+
+
+{% block body %}
+ <div class="container-fluid">
+    <div class="mx-auto">
+
+
+          <nav class="navbar navbar navbar-default">
+            <div class="container">
+
+    <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav">
+                    <li><a href="{% url 'computer:Homepage' %}"><b>Introduction</b></a></li>
+                    <li><a href="{% url 'computer:Matlab' %}"><b>MATLAB</b></a></li>
+                    <li class="active"><a href="{% url 'computer:Simulink' %}"><b>SIMULINK</b></a></li>
+                    <li><a href="{% url 'computer:Psat' %}"><b>Power System Toolbox</b></a></li>
+                </ul>
+    </ul>
+  </div>
+</nav>
+
+    <div class="container">
+
+
+
+        <div class="col-md-4 row">
+            <div class="list-group">
+                <a href="{% url 'computer:SimRC' %}" class="list-group-item list-group-item-action active">Series RLC Circuit Response</a>
+            </div>
+
+        </div>
+
+        <div class="col-md-8 row">
+
+             <div class="container-fluid">
+                 <h3>Response of RLC Circuit</h3>
+
+                 <hr>
+
+                 <article>
+                     <div class="article">
+                         The general diagram of series RLC circuit is shown below: <br><br>
+
+                         <img src="http://paynesnotebook.net/Research/ElectricalCircuits/SeriesRLC/SeriesRLC-1.png" style="height: 200px;" class="img-fluid" alt="Responsive image">
+                            <hr>
+                         The theoretical concepts of respose of RLC can be studied either online or using reference books. Here, we will
+                         focus on the modelling the circuit and obtaining the response of circuit in different <b>inputs</b> and
+                         different <b> circuit conditons</b>.
+                         <br><br>
+                         Open a new simulink model file and drag and drop the necessary block from the simulink, simscape library. They are
+                         <b>Series RLC branch, dc voltage source, ac voltage source, scope, powergui, current measurement and ground.</b><br>
+                         And connect them as follows:<br>
+                         <img src="https://image.ibb.co/kzuYMc/series_Rlc.jpg" class="img-fluid" alt="Responsive image"><br><br>
+
+                         After conncting them set the values of R, L and C values. <br> <b>a.Step Reponse:</b><br>
+
+                         Here you put a dc voltage source in input and all other component in series. There are generally to case of response. They are<br>
+                         <b>Underdamping case</b><br> The value of R, L and C for this case are $10 \Omega, 1 mH , 1 \mu Farad$.
+                         <br>
+                         <img src="https://image.ibb.co/k8FjSH/underdamp.jpg" class="img-fluid" alt="Responsive image">
+                         <br>
+                         <b>Overdamped Case</b><br>The values of R, L and C for this case are $100 \Omega, 1mH , 1\mu Farad$<br><br>
+
+                         <img src="https://image.ibb.co/en0jSH/criticaldamp.jpg" class="img-fluid" alt="Responsive image">
+                         <br><br>
+
+
+                         <b>b. AC response and resonance</b><br>
+                         For general ac resoponse you can pur the ac source at the source and run the simulation. You can observe the result of 50 hz frequecy.
+                         <br><br>
+                         <img src="https://image.ibb.co/bANaZx/at50hz.jpg" class="img-fluid" alt="Responsive image">
+
+                         <br><br>
+                         <b>At resonance</b>( This can be obtained by using the input frequecy of source equal to $f = \frac{1}{2\pi \sqrt{LC}}$). You will obtain
+                         the result of current equal to $I = V / R$. This is shown below:
+                         <br><br>
+                         <img src="https://image.ibb.co/iaOSgc/at5033resonance.jpg" class="img-fluid" alt="Responsive image">
+                         <br> <br>
+
+                         <hr>
+                         For the model .slx file you can go to this <a href="https://drive.google.com/open?id=1KFaPWlOyHgThi5DTq9M1xoTBdGmJIdnJ"><b>Link</b></a>.<br>
+                         <b>Thank you</b>
+                         <br><br> <br>
+                     </div>
+
+
+
+                 </article>
+
+
+             </div>
+
+        </div>
+
+    </div>
+    </div>
+
+</div>
+{% endblock %}
