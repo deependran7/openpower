@@ -27,7 +27,7 @@ def Notes(request):
 
     query = request.GET.get("q")
     if query:
-        queryset = queryset.filter(filename__iexact=query)
+        queryset = queryset.filter(filename__icontains=query)
 
     template = get_template('yournotes/notesandsol.html')
     context = {
